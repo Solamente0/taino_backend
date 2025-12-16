@@ -46,21 +46,17 @@ INSTALLED_APPS = [
     "apps.setting.apps.SettingConfig",
     "apps.notification.apps.NotificationConfig",
     "apps.soft_delete.apps.SoftDeleteConfig",
-    "apps.court_notification.apps.CourtNotificationServiceConfig",
-    "apps.court_calendar.apps.CourtCalendarConfig",
     "apps.common.apps.CommonConfig",
-    "apps.lawyer_office.apps.LawyerOfficeConfig",
     "apps.subscription.apps.SubscriptionConfig",
     "apps.permissions.apps.PermissionConfig",
     "apps.chat.apps.ChatConfig",
     "apps.ai_chat.apps.AIChatConfig",
-    "apps.contract.apps.ContractConfig",
     "apps.analyzer.apps.AnalyzerConfig",
-    "apps.barlawyer.apps.BarlawyerConfig",
     "apps.activity_log.apps.ActivityLogConfig",
     "apps.crm_hub.apps.CrmHubConfig",
     "apps.ai_support.apps.AiSupportConfig",
     "apps.file_to_text.apps.FileToTextConfig",
+    "apps.case.apps.CaseConfig",  # اضافه کنید
 ]
 
 MIDDLEWARE = [

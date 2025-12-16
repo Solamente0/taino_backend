@@ -34,22 +34,19 @@ urlpatterns = [
     path("api/referral/", include("apps.referral.api.urls"), name="referral"),
     path("api/setting/", include("apps.setting.api.urls"), name="setting"),
     path("api/notification/", include("apps.notification.api.urls"), name="notification"),
-    path("api/court-notification/", include("apps.court_notification.api.urls"), name="notification_service"),
-    path("api/court-calendar/", include("apps.court_calendar.api.urls"), name="court_calendar"),
     path("api/common/", include("apps.common.api.urls"), name="common"),
     path("api/payment/", include("apps.payment.api.urls"), name="payment"),
-    path("api/lawyer-office/", include("apps.lawyer_office.api.urls"), name="lawyer_office"),
     path("api/subscription/", include("apps.subscription.api.urls"), name="subscription"),
     path("api/chat/", include("apps.chat.api.urls"), name="chat"),
     path("api/ai-chat/", include("apps.ai_chat.api.urls"), name="ai-chat"),
     path("api/permissions/", include("apps.permissions.api.urls"), name="permissions"),
     path("api/messaging/", include("apps.messaging.api.urls"), name="messaging"),
     path("api/analyzer/", include("apps.analyzer.api.urls"), name="analyzer"),
-    path("api/contract/", include("apps.contract.api.urls"), name="contract"),
     path("api/activity-log/", include("apps.activity_log.api.urls"), name="activity_log"),
     path("api/crm-hub/", include("apps.crm_hub.api.urls"), name="crm_hub"),
     path("api/ai-support/", include("apps.ai_support.api.urls"), name="ai-support"),
     path("api/file-to-text/", include("apps.file_to_text.api.urls"), name="file_to_text"),
+    path("api/case/", include("apps.case.api.urls"), name="case"),
 ]
 
 if settings.DEBUG or settings.TESTING:
