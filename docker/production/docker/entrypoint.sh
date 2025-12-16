@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Production entrypoint script for OnlineVekalat API
+# Production entrypoint script for Taino API
 
 # Set default environment variables
 export DJANGO_SETTINGS_MODULE=${DJANGO_SETTINGS_MODULE:-"config.settings"}
@@ -13,7 +13,7 @@ export PORT=${PORT:-8089}
 cd "${PYTHONPATH}" || exit 1
 
 # Display environment information
-echo "Starting OnlineVekalat API server"
+echo "Starting Taino API server"
 echo "DJANGO_SETTINGS_MODULE: ${DJANGO_SETTINGS_MODULE}"
 echo "PORT: ${PORT}"
 echo "WORKERS: ${WORKERS}"

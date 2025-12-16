@@ -1,4 +1,4 @@
-# OnlineVekalat Backend Source Code
+# Taino Backend Source Code
 
 ## Running Partially in Docker
 

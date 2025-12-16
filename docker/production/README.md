@@ -1,6 +1,6 @@
-# OnlineVekalat Production Setup
+# Taino Production Setup
 
-This directory contains the production configuration for the OnlineVekalat application.
+This directory contains the production configuration for the Taino application.
 
 ## Directory Structure
 
