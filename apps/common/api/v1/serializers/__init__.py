@@ -1,13 +1,3 @@
-from .home import (
-    HeroSectionImageSerializer,
-    PartnerShipSerializer,
-    WayToFileTaxSerializer,
-    ServiceSerializer,
-    TeamMemberSerializer,
-    TestimonialSerializer,
-    CorporateStrategySerializer,
-    HomePageSerializer,
-)
 from .contact_us import ContactUsSerializer
 from .faq import FrequentlyAskedQuestionSerializer
 from .terms_of_use import TermsOfUseSerializer

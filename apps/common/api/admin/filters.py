@@ -2,13 +2,6 @@ import django_filters
 from django_filters.rest_framework.backends import DjangoFilterBackend
 
 from apps.common.models import (
-    HomePage,
-    HeroSectionImage,
-    PartnerShip,
-    WayToFileTax,
-    Service,
-    TeamMember,
-    Testimonial,
     FrequentlyAskedQuestion,
     TermsOfUse,
     ContactUs,
@@ -18,95 +11,6 @@ from apps.common.models import (
     AboutUsTeamMember,
     TutorialVideo, ServiceCategory,
 )
-
-
-class HomePageAdminFilter(django_filters.FilterSet):
-    class Meta:
-        model = HomePage
-        fields = {
-            "is_active": ["exact"],
-            "created_at": ["gte", "lte"],
-            "updated_at": ["gte", "lte"],
-        }
-
-
-class HeroSectionImageAdminFilter(django_filters.FilterSet):
-    home_page_pid = django_filters.CharFilter(field_name="home_page__pid", lookup_expr="exact")
-
-    class Meta:
-        model = HeroSectionImage
-        fields = {
-            "home_page": ["exact"],
-            "order": ["exact", "gte", "lte"],
-            "created_at": ["gte", "lte"],
-        }
-
-
-class PartnerShipAdminFilter(django_filters.FilterSet):
-    home_page_pid = django_filters.CharFilter(field_name="home_page__pid", lookup_expr="exact")
-
-    class Meta:
-        model = PartnerShip
-        fields = {
-            "home_page": ["exact"],
-            "order": ["exact", "gte", "lte"],
-            "created_at": ["gte", "lte"],
-        }
-
-
-class WayToFileTaxAdminFilter(django_filters.FilterSet):
-    home_page_pid = django_filters.CharFilter(field_name="home_page__pid", lookup_expr="exact")
-
-    class Meta:
-        model = WayToFileTax
-        fields = {
-            "home_page": ["exact"],
-            "is_active": ["exact"],
-            "order": ["exact", "gte", "lte"],
-            "created_at": ["gte", "lte"],
-            "updated_at": ["gte", "lte"],
-        }
-
-
-class ServiceAdminFilter(django_filters.FilterSet):
-    home_page_pid = django_filters.CharFilter(field_name="home_page__pid", lookup_expr="exact")
-
-    class Meta:
-        model = Service
-        fields = {
-            "home_page": ["exact"],
-            "is_active": ["exact"],
-            "order": ["exact", "gte", "lte"],
-            "created_at": ["gte", "lte"],
-            "updated_at": ["gte", "lte"],
-        }
-
-
-class TeamMemberAdminFilter(django_filters.FilterSet):
-    class Meta:
-        model = TeamMember
-        fields = {
-            "team_type": ["exact"],
-            "is_active": ["exact"],
-            "first_name": ["icontains"],
-            "last_name": ["icontains"],
-            "order": ["exact", "gte", "lte"],
-            "created_at": ["gte", "lte"],
-            "updated_at": ["gte", "lte"],
-        }
-
-
-class TestimonialAdminFilter(django_filters.FilterSet):
-    class Meta:
-        model = Testimonial
-        fields = {
-            "is_active": ["exact"],
-            "role": ["exact", "icontains"],
-            "city": ["exact", "icontains"],
-            "rating": ["exact", "gte", "lte"],
-            "created_at": ["gte", "lte"],
-            "updated_at": ["gte", "lte"],
-        }
 
 
 class FrequentlyAskedQuestionAdminFilter(django_filters.FilterSet):

@@ -104,28 +104,3 @@ class AdminChatAIConfigSerializer(TainoBaseModelSerializer):
             "is_active",
         ]
 
-
-class AdminLegalAnalysisLogSerializer(TainoBaseModelSerializer):
-    """Admin serializer for legal analysis logs"""
-
-    user = AdminAIUserSerializer(read_only=True)
-
-    class Meta:
-        model = LegalAnalysisLog
-        fields = [
-            "pid",
-            "user",
-            "analysis_text",
-            "user_request_analysis_text",
-            "ai_type",
-            "user_request_choice",
-            "ai_session",
-            "is_content_only",
-            "assistant_id",
-            "thread_id",
-            "run_id",
-            "is_active",
-            "is_deleted",
-            "created_at",
-            "updated_at",
-        ]

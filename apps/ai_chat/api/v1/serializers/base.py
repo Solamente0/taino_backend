@@ -193,29 +193,3 @@ class ChatAIConfigSerializer(serializers.ModelSerializer):
             return None
 
         return obj.get_step_options()
-
-
-class OCRFileSerializer(TainoBaseSerializer):
-    """Serializer for individual OCR file uploads"""
-
-    title = serializers.CharField(default="ExampleFileName", required=False, max_length=255)
-    file = Base64FileField(required=False, default=None, allow_null=True)
-    content = serializers.CharField(required=False, default=None, allow_null=True)
-
-    def validate_file(self, file):
-        """Validate file size and type"""
-        if file is None:
-            return None
-
-        max_size = 10 * 1024 * 1024  # 10MB
-        if file.size > max_size:
-            raise serializers.ValidationError(f"File size cannot exceed 10MB")
-
-        return file
-
-    def validate(self, data):
-        """Validate the serializer data"""
-        if data.get("file") is None and not data.get("content"):
-            pass
-
-        return data

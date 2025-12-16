@@ -22,7 +22,6 @@ from apps.common.api.v1.serializers.about_us import AboutUsTeamMemberSerializer
 from apps.common.api.v1.serializers.tutorial_video import TutorialVideoSerializer
 
 from apps.common.models import (
-    HomePage,
     FrequentlyAskedQuestion,
     TermsOfUse,
     Newsletter,
@@ -31,7 +30,6 @@ from apps.common.models import (
     ServiceCategory,
 )
 from apps.common.api.v1.serializers import (
-    HomePageSerializer,
     FrequentlyAskedQuestionSerializer,
     TermsOfUseSerializer,
     NewsletterUnsubscribeSerializer,
@@ -46,25 +44,6 @@ from base_utils.filters import IsActiveFilterBackend
 from base_utils.views.mobile import TainoMobileReadOnlyModelViewSet, TainoMobileAPIView
 
 log = logging.getLogger(__name__)
-
-
-class HomePageView(APIView):
-    # permission_classes = [AllowAny]
-    authentication_classes = []
-    permission_classes = []
-
-    def get(self, request, *args, **kwargs):
-        try:
-            # Get the most recent active home page
-            homepage = HomePage.objects.filter(is_active=True).latest("created_at")
-            serializer = HomePageSerializer(homepage)
-            return Response({"status": True, "data": serializer.data})
-        except HomePage.DoesNotExist:
-            return Response({"status": False, "message": "No active home page found"})
-        except Exception as e:
-            log.error(f"Error fetching home page: {str(e)}")
-            return Response({"status": False, "message": "Error fetching home page data"})
-
 
 class FrequentlyAskedQuestionViewSet(TainoMobileReadOnlyModelViewSet):
     queryset = FrequentlyAskedQuestion.objects.filter(is_active=True)

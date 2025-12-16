@@ -5,13 +5,6 @@ from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.response import Response
 
 from apps.common.api.admin.filters import (
-    HomePageAdminFilter,
-    HeroSectionImageAdminFilter,
-    PartnerShipAdminFilter,
-    WayToFileTaxAdminFilter,
-    ServiceAdminFilter,
-    TeamMemberAdminFilter,
-    TestimonialAdminFilter,
     FrequentlyAskedQuestionAdminFilter,
     TermsOfUseAdminFilter,
     NewsletterAdminFilter,
@@ -23,13 +16,6 @@ from apps.common.api.admin.filters import (
     ServiceCategoryAdminFilter,
 )
 from .serializers import (
-    HomePageAdminSerializer,
-    HeroSectionImageAdminSerializer,
-    PartnerShipAdminSerializer,
-    WayToFileTaxAdminSerializer,
-    ServiceAdminSerializer,
-    TeamMemberAdminSerializer,
-    TestimonialAdminSerializer,
     FrequentlyAskedQuestionAdminSerializer,
     TermsOfUseAdminSerializer,
     ContactUsAdminSerializer,
@@ -38,13 +24,6 @@ from .serializers import (
 )
 from apps.common.api.admin.serializers.subscribe import NewsletterAdminSerializer
 from apps.common.models import (
-    HomePage,
-    HeroSectionImage,
-    PartnerShip,
-    WayToFileTax,
-    Service,
-    TeamMember,
-    Testimonial,
     FrequentlyAskedQuestion,
     TermsOfUse,
     Newsletter,
@@ -60,79 +39,6 @@ from .serializers.about_us import AboutUsAdminSerializer, AboutUsTeamMemberAdmin
 from .serializers.tutorial_video import TutorialVideoAdminSerializer
 
 
-class HomePageAdminViewSet(TainoAdminModelViewSet):
-    queryset = HomePage.objects.all()
-    serializer_class = HomePageAdminSerializer
-
-    filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
-    search_fields = ["header_title", "header_sub_title"]
-    ordering_fields = ["created_at", "updated_at"]
-    filterset_class = HomePageAdminFilter
-    ordering = ["-created_at"]
-
-
-class HeroSectionImageAdminViewSet(TainoAdminModelViewSet):
-    queryset = HeroSectionImage.objects.all()
-    serializer_class = HeroSectionImageAdminSerializer
-
-    filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
-    ordering_fields = ["order", "created_at"]
-    filterset_class = HeroSectionImageAdminFilter
-    ordering = ["order"]
-
-
-class PartnerShipAdminViewSet(TainoAdminModelViewSet):
-    queryset = PartnerShip.objects.all()
-    serializer_class = PartnerShipAdminSerializer
-
-    filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
-    ordering_fields = ["order", "created_at"]
-    filterset_class = PartnerShipAdminFilter
-    ordering = ["order"]
-
-
-class WayToFileTaxAdminViewSet(TainoAdminModelViewSet):
-    queryset = WayToFileTax.objects.all()
-    serializer_class = WayToFileTaxAdminSerializer
-
-    filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
-    search_fields = ["title", "description"]
-    ordering_fields = ["order", "created_at", "updated_at"]
-    filterset_class = WayToFileTaxAdminFilter
-    ordering = ["order"]
-
-
-class ServiceAdminViewSet(TainoAdminModelViewSet):
-    queryset = Service.objects.all()
-    serializer_class = ServiceAdminSerializer
-
-    filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
-    search_fields = ["title", "description"]
-    ordering_fields = ["order", "created_at", "updated_at"]
-    filterset_class = ServiceAdminFilter
-    ordering = ["order"]
-
-
-class TeamMemberAdminViewSet(TainoAdminModelViewSet):
-    queryset = TeamMember.objects.all()
-    serializer_class = TeamMemberAdminSerializer
-
-    filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
-    search_fields = ["first_name", "last_name", "title", "university"]
-    ordering_fields = ["team_type", "order", "created_at", "updated_at"]
-    filterset_class = TeamMemberAdminFilter
-    ordering = ["team_type", "order"]
-
-
-class TestimonialAdminViewSet(TainoAdminModelViewSet):
-    queryset = Testimonial.objects.all()
-    serializer_class = TestimonialAdminSerializer
-
-    filter_backends = [SearchFilter, DjangoFilterBackend, OrderingFilter]
-    search_fields = ["first_name", "last_name", "role", "city", "comment"]
-    ordering_fields = ["rating", "created_at", "updated_at"]
-    filterset_class = TestimonialAdminFilter
-    ordering = ["-created_at"]
 
 
 class FrequentlyAskedQuestionAdminViewSet(TainoAdminModelViewSet):

@@ -64,9 +64,3 @@ class AdminChatAIConfigViewSet(
     queryset = ChatAIConfig.objects.all().order_by("-created_at")
     serializer_class = AdminChatAIConfigSerializer
 
-
-class AdminLegalAnalysisLogViewSet(TainoAdminListModelMixin, TainoAdminRetrieveModelMixin, TainoAdminGenericViewSet):
-    """Admin ViewSet for legal analysis logs"""
-
-    queryset = LegalAnalysisLog.objects.all().order_by("-created_at")
-    serializer_class = AdminLegalAnalysisLogSerializer

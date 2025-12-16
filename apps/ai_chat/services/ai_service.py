@@ -9,7 +9,6 @@ from django.utils import timezone
 from django.contrib.auth import get_user_model
 
 from apps.ai_chat.models import AISession, AIMessage, ChatAIConfig, AIMessageTypeEnum
-from apps.ai_chat.services.chat_service import ChatService
 from apps.ai_chat.services.transaction_tracking import AITransactionTracker
 from base_utils.services import AbstractBaseService
 
