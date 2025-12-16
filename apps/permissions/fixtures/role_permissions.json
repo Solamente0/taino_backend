@@ -1,0 +1,431 @@
+{
+  "categories": [
+    {
+      "name": "تقویم",
+      "description": "دسترسی‌های مربوط به تقویم"
+    },
+    {
+      "name": "کمد بایگانی",
+      "description": "دسترسی‌های مربوط به کمد بایگانی"
+    },
+    {
+      "name": "پروفایل شخصی",
+      "description": "دسترسی‌های مربوط به پروفایل"
+    },
+    {
+      "name": "ابلاغیه",
+      "description": "دسترسی‌های مربوط به ابلاغیه‌ها"
+    },
+    {
+      "name": "موکلین",
+      "description": "دسترسی‌های مربوط به موکلین"
+    },
+    {
+      "name": "منشی",
+      "description": "دسترسی‌های مربوط به منشی"
+    },
+    {
+      "name": "مشاوره",
+      "description": "دسترسی‌های مربوط به مشاوره"
+    },
+    {
+      "name": "کیف پول",
+      "description": "دسترسی‌های مربوط به کیف پول"
+    },
+    {
+      "name": "جستجو",
+      "description": "دسترسی‌های مربوط به جستجو"
+    },
+    {
+      "name": "اشتراک",
+      "description": "دسترسی‌های مربوط به اشتراک"
+    },
+    {
+      "name": "پرونده",
+      "description": "دسترسی‌های مربوط به پرونده"
+    },
+    {
+      "name": "چت",
+      "description": "دسترسی‌های مربوط به چت"
+    }
+  ],
+  "permissions": [
+    {
+      "code_name": "calendar_read",
+      "name": "مشاهده تقویم",
+      "category": "تقویم"
+    },
+    {
+      "code_name": "calendar_write",
+      "name": "ثبت در تقویم",
+      "category": "تقویم"
+    },
+    {
+      "code_name": "calendar_edit",
+      "name": "ویرایش تقویم",
+      "category": "تقویم"
+    },
+    {
+      "code_name": "calendar_delete",
+      "name": "حذف از تقویم",
+      "category": "تقویم"
+    },
+    {
+      "code_name": "cabinet_read",
+      "name": "مشاهده کمد بایگانی",
+      "category": "کمد بایگانی"
+    },
+    {
+      "code_name": "cabinet_write",
+      "name": "ثبت در کمد بایگانی",
+      "category": "کمد بایگانی"
+    },
+    {
+      "code_name": "cabinet_edit",
+      "name": "ویرایش کمد بایگانی",
+      "category": "کمد بایگانی"
+    },
+    {
+      "code_name": "cabinet_delete",
+      "name": "حذف از کمد بایگانی",
+      "category": "کمد بایگانی"
+    },
+    {
+      "code_name": "profile_read",
+      "name": "مشاهده پروفایل شخصی",
+      "category": "پروفایل شخصی"
+    },
+    {
+      "code_name": "profile_write",
+      "name": "ثبت در پروفایل شخصی",
+      "category": "پروفایل شخصی"
+    },
+    {
+      "code_name": "profile_edit",
+      "name": "ویرایش پروفایل شخصی",
+      "category": "پروفایل شخصی"
+    },
+    {
+      "code_name": "profile_delete",
+      "name": "حذف از پروفایل شخصی",
+      "category": "پروفایل شخصی"
+    },
+    {
+      "code_name": "notification_read",
+      "name": "مشاهده ابلاغیه",
+      "category": "ابلاغیه"
+    },
+    {
+      "code_name": "notification_write",
+      "name": "ثبت ابلاغیه",
+      "category": "ابلاغیه"
+    },
+    {
+      "code_name": "notification_edit",
+      "name": "ویرایش ابلاغیه",
+      "category": "ابلاغیه"
+    },
+    {
+      "code_name": "notification_delete",
+      "name": "حذف ابلاغیه",
+      "category": "ابلاغیه"
+    },
+    {
+      "code_name": "client_read",
+      "name": "مشاهده موکلین",
+      "category": "موکلین"
+    },
+    {
+      "code_name": "client_write",
+      "name": "ثبت موکل",
+      "category": "موکلین"
+    },
+    {
+      "code_name": "client_edit",
+      "name": "ویرایش موکل",
+      "category": "موکلین"
+    },
+    {
+      "code_name": "client_delete",
+      "name": "حذف موکل",
+      "category": "موکلین"
+    },
+    {
+      "code_name": "secretary_read",
+      "name": "مشاهده منشی",
+      "category": "منشی"
+    },
+    {
+      "code_name": "secretary_write",
+      "name": "ثبت منشی",
+      "category": "منشی"
+    },
+    {
+      "code_name": "secretary_edit",
+      "name": "ویرایش منشی",
+      "category": "منشی"
+    },
+    {
+      "code_name": "secretary_delete",
+      "name": "حذف منشی",
+      "category": "منشی"
+    },
+    {
+      "code_name": "consultation_read",
+      "name": "مشاهده مشاوره‌ها",
+      "category": "مشاوره"
+    },
+    {
+      "code_name": "consultation_write",
+      "name": "ثبت درخواست مشاوره",
+      "category": "مشاوره"
+    },
+    {
+      "code_name": "consultation_respond",
+      "name": "پاسخگویی به مشاوره",
+      "category": "مشاوره"
+    },
+    {
+      "code_name": "wallet_read",
+      "name": "مشاهده کیف پول",
+      "category": "کیف پول"
+    },
+    {
+      "code_name": "wallet_charge",
+      "name": "شارژ کیف پول",
+      "category": "کیف پول"
+    },
+    {
+      "code_name": "wallet_withdraw",
+      "name": "برداشت از کیف پول",
+      "category": "کیف پول"
+    },
+    {
+      "code_name": "wallet_history",
+      "name": "مشاهده تاریخچه تراکنش‌ها",
+      "category": "کیف پول"
+    },
+    {
+      "code_name": "search_lawyer",
+      "name": "جستجوی وکیل",
+      "category": "جستجو"
+    },
+    {
+      "code_name": "search_client",
+      "name": "جستجوی موکل",
+      "category": "جستجو"
+    },
+    {
+      "code_name": "search_case",
+      "name": "جستجوی پرونده",
+      "category": "جستجو"
+    },
+    {
+      "code_name": "subscription_read",
+      "name": "مشاهده اشتراک",
+      "category": "اشتراک"
+    },
+    {
+      "code_name": "subscription_buy",
+      "name": "خرید اشتراک",
+      "category": "اشتراک"
+    },
+    {
+      "code_name": "subscription_remaining",
+      "name": "مشاهده باقیمانده اشتراک",
+      "category": "اشتراک"
+    },
+    {
+      "code_name": "case_read",
+      "name": "مشاهده پرونده",
+      "category": "پرونده"
+    },
+    {
+      "code_name": "case_write",
+      "name": "ثبت پرونده",
+      "category": "پرونده"
+    },
+    {
+      "code_name": "case_edit",
+      "name": "ویرایش پرونده",
+      "category": "پرونده"
+    },
+    {
+      "code_name": "case_delete",
+      "name": "حذف پرونده",
+      "category": "پرونده"
+    },
+    {
+      "code_name": "chat_read",
+      "name": "مشاهده چت",
+      "category": "چت"
+    },
+    {
+      "code_name": "chat_write",
+      "name": "ارسال پیام",
+      "category": "چت"
+    },
+    {
+      "code_name": "chat_ai",
+      "name": "استفاده از هوش مصنوعی",
+      "category": "چت"
+    }
+  ],
+  "roles": [
+    {
+      "static_name": "lawyer",
+      "name": "وکیل",
+      "description": "دسترسی کامل به سیستم",
+      "permissions": [
+        "calendar_read",
+        "calendar_write",
+        "calendar_edit",
+        "calendar_delete",
+        "cabinet_read",
+        "cabinet_write",
+        "cabinet_edit",
+        "cabinet_delete",
+        "profile_read",
+        "profile_write",
+        "profile_edit",
+        "profile_delete",
+        "notification_read",
+        "notification_write",
+        "notification_edit",
+        "notification_delete",
+        "client_read",
+        "client_write",
+        "client_edit",
+        "client_delete",
+        "secretary_read",
+        "secretary_write",
+        "secretary_edit",
+        "secretary_delete",
+        "consultation_read",
+        "consultation_respond",
+        "wallet_read",
+        "wallet_charge",
+        "wallet_withdraw",
+        "wallet_history",
+        "search_client",
+        "search_case",
+        "subscription_read",
+        "subscription_buy",
+        "subscription_remaining",
+        "case_read",
+        "case_write",
+        "case_edit",
+        "case_delete",
+        "chat_read",
+        "chat_write",
+        "chat_ai"
+      ]
+    },
+    {
+      "static_name": "secretary",
+      "name": "منشی",
+      "description": "دسترسی محدود به سیستم",
+      "permissions": [
+        "calendar_read",
+        "calendar_write",
+        "calendar_edit",
+        "calendar_delete",
+        "cabinet_read",
+        "cabinet_write",
+        "cabinet_edit",
+        "cabinet_delete",
+        "profile_read",
+        "profile_write",
+        "profile_edit",
+        "profile_delete",
+        "notification_read",
+        "notification_write",
+        "notification_edit",
+        "notification_delete",
+        "client_read",
+        "client_write",
+        "client_edit",
+        "client_delete",
+        "secretary_read",
+        "secretary_write",
+        "secretary_edit",
+        "secretary_delete",
+        "consultation_read",
+        "consultation_respond",
+        "wallet_read",
+        "wallet_charge",
+        "wallet_withdraw",
+        "wallet_history",
+        "search_client",
+        "search_case",
+        "subscription_read",
+        "subscription_buy",
+        "subscription_remaining",
+        "case_read",
+        "case_write",
+        "case_edit",
+        "case_delete",
+        "chat_read",
+        "chat_write",
+        "chat_ai"
+      ]
+    },
+    {
+      "static_name": "legal_entity",
+      "name": "شخصیت حقوقی",
+      "description": "دسترسی مخصوص شخصیت‌های حقوقی",
+      "permissions": [
+        "calendar_read",
+        "calendar_write",
+        "calendar_edit",
+        "calendar_delete",
+        "cabinet_read",
+        "cabinet_write",
+        "cabinet_edit",
+        "cabinet_delete",
+        "profile_read",
+        "profile_write",
+        "profile_edit",
+        "profile_delete",
+        "notification_read",
+        "notification_write",
+        "notification_edit",
+        "notification_delete",
+        "case_read",
+        "case_write",
+        "case_edit",
+        "case_delete",
+        "consultation_read",
+        "consultation_respond",
+        "wallet_read",
+        "wallet_charge",
+        "wallet_withdraw",
+        "wallet_history",
+        "search_case",
+        "subscription_read",
+        "subscription_buy",
+        "subscription_remaining"
+      ]
+    },
+    {
+      "static_name": "regular_user",
+      "name": "کاربر عادی",
+      "description": "دسترسی محدود برای کاربران عادی",
+      "permissions": [
+        "calendar_read",
+        "calendar_write",
+        "calendar_edit",
+        "calendar_delete",
+        "profile_read",
+        "profile_write",
+        "profile_edit",
+        "profile_delete",
+        "consultation_write",
+        "wallet_read",
+        "wallet_charge",
+        "wallet_withdraw",
+        "wallet_history"
+      ]
+    }
+  ]
+}

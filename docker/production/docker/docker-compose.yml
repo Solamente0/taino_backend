@@ -1,0 +1,458 @@
+version: '3.8'
+
+networks:
+  frontend:
+    driver: bridge
+  backend:
+    driver: bridge
+#    internal: true  # Backend network not accessible from outside
+
+volumes:
+  postgres_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${DATA_DIR}/postgres
+  mongodb_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${DATA_DIR}/mongodb
+  redis_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${DATA_DIR}/redis
+  rabbitmq_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${DATA_DIR}/rabbitmq
+  media_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${DATA_DIR}/media
+  app_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${APP_DIR}
+  prometheus_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${METRICS_DIR}/prometheus
+  grafana_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${METRICS_DIR}/grafana
+
+services:
+  nginx:
+    image: nginx:1.25-alpine
+    container_name: ${PROJECT_NAME}_nginx
+    restart: unless-stopped
+    depends_on:
+      - api
+      - chat
+    ports:
+      - "8000:80"
+      - "4433:443"
+    volumes:
+      - ${CONFIGS_DIR}/nginx/:/etc/nginx/conf.d/:ro
+      - ${CERTS_DIR}:/etc/nginx/certs/:ro
+      - ${LOGS_DIR}/nginx:/var/log/nginx
+      - media_data:/var/www/media:ro
+    networks:
+      - frontend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  postgres:
+    image: postgres:16.1-alpine
+    container_name: ${PROJECT_NAME}_postgres
+    restart: unless-stopped
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ${CONFIGS_DIR}/postgres/postgresql.conf:/etc/postgresql/postgresql.conf:ro
+      - ${LOGS_DIR}/db:/var/log/postgresql
+    environment:
+      - POSTGRES_USER=${DB_CONNECTION_USER}
+      - POSTGRES_PASSWORD=${DB_CONNECTION_PASSWORD}
+      - POSTGRES_DB=${DB_CONNECTION_NAME}
+    command: ["postgres", "-c", "config_file=/etc/postgresql/postgresql.conf"]
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_CONNECTION_USER} -d ${DB_CONNECTION_NAME}"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '1'
+          memory: 1G
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  redis:
+    image: redis:7.2-alpine
+    container_name: ${PROJECT_NAME}_redis
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+      - ${CONFIGS_DIR}/redis/redis.conf:/usr/local/etc/redis/redis.conf:ro
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  rabbitmq:
+    image: rabbitmq:3.12-management-alpine
+    container_name: ${PROJECT_NAME}_rabbitmq
+    restart: unless-stopped
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+      - ${CONFIGS_DIR}/rabbitmq/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf:ro
+    environment:
+      - RABBITMQ_DEFAULT_USER=${RABBITMQ_CONNECTION_USERNAME}
+      - RABBITMQ_DEFAULT_PASS=${RABBITMQ_CONNECTION_PASSWORD}
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  mongodb:
+    image: mongo:7
+    container_name: ${PROJECT_NAME}_mongodb
+    restart: unless-stopped
+    volumes:
+      - mongodb_data:/data/db
+      - ${CONFIGS_DIR}/mongodb/mongod.conf:/etc/mongod.conf:ro
+    command: ["--config", "/etc/mongod.conf"]
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGODB_CONNECTION_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_CONNECTION_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGODB_DBNAME}
+    networks:
+      - backend
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.runCommand('ping').ok"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  api:
+    build:
+      context: ../../..
+      dockerfile: ${DOCKER_DIR}/api.Dockerfile
+    image: ${PROJECT_NAME}_api:latest
+    container_name: ${PROJECT_NAME}_api
+    restart: unless-stopped
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+      - mongodb
+    volumes:
+      - ${LOGS_DIR}/app:/home/app/logs
+      - media_data:/home/app/media
+      - ${APP_DIR}:/home/app/api
+    env_file:
+      - ${ENV_FILE}
+    networks:
+      - backend
+      - frontend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8089/api/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '1'
+          memory: 1G
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  chat:
+    build:
+      context: ../../..
+      dockerfile: ${DOCKER_DIR}/socket.Dockerfile
+    image: ${PROJECT_NAME}_chat:latest
+    container_name: ${PROJECT_NAME}_chat
+    restart: unless-stopped
+    depends_on:
+      - redis
+      - postgres
+      - mongodb
+    command: daphne -b 0.0.0.0 -p 8002 --verbosity 2 --access-log - config.asgi:application
+    volumes:
+      - ${LOGS_DIR}/app:/home/app/logs
+      - ${APP_DIR}:/home/app/api
+    env_file:
+      - ${ENV_FILE}
+    ports:
+      - "8002:8002"
+    networks:
+      - backend
+      - frontend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8002/api/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '1'
+          memory: 1G
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  celery-worker:
+    build:
+      context: ../../..
+      dockerfile: ${DOCKER_DIR}/celery.Dockerfile
+    image: ${PROJECT_NAME}_celery:latest
+    container_name: ${PROJECT_NAME}_celery_worker
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+      - postgres
+#      - mongodb
+    command: celery -A config worker -l info --concurrency=4
+    volumes:
+      - ${LOGS_DIR}/app:/home/app/logs
+      - media_data:/home/app/media
+    env_file:
+      - ${ENV_FILE}
+    networks:
+      - backend
+    deploy:
+      resources:
+        limits:
+          cpus: '1'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  celery-beat:
+    build:
+      context: ../../..
+      dockerfile: ${DOCKER_DIR}/celery.Dockerfile
+    image: ${PROJECT_NAME}_celery:latest
+    container_name: ${PROJECT_NAME}_celery_beat
+    restart: unless-stopped
+    depends_on:
+      - rabbitmq
+      - postgres
+      - celery-worker
+    command: celery -A config beat -l info
+    volumes:
+      - ${LOGS_DIR}/app:/home/app/logs
+    env_file:
+      - ${ENV_FILE}
+    networks:
+      - backend
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.2'
+          memory: 256M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: ${PROJECT_NAME}_prometheus
+    restart: unless-stopped
+    volumes:
+      - ${CONFIGS_DIR}/prometheus/:/etc/prometheus/
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+      - '--web.console.libraries=/etc/prometheus/console_libraries'
+      - '--web.console.templates=/etc/prometheus/consoles'
+      - '--web.enable-lifecycle'
+    networks:
+      - backend
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.2'
+          memory: 256M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: ${PROJECT_NAME}_grafana
+    restart: unless-stopped
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ${CONFIGS_DIR}/grafana/:/etc/grafana/provisioning/
+    environment:
+      - GF_SECURITY_ADMIN_USER=${GRAFANA_ADMIN_USER}
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_ADMIN_PASSWORD}
+      - GF_USERS_ALLOW_SIGN_UP=false
+    networks:
+      - backend
+      - frontend
+    depends_on:
+      - prometheus
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.2'
+          memory: 256M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  backup:
+    image: postgres:16.1-alpine
+    container_name: ${PROJECT_NAME}_backup
+    restart: unless-stopped
+    volumes:
+      - ${BACKUPS_DIR}:/backups
+      - ${SCRIPTS_DIR}/backup.sh:/usr/local/bin/backup.sh
+    environment:
+      - PGUSER=${DB_CONNECTION_USER}
+      - PGPASSWORD=${DB_CONNECTION_PASSWORD}
+      - PGDATABASE=${DB_CONNECTION_NAME}
+      - PGHOST=postgres
+      - BACKUP_RETENTION_DAYS=7
+    command: ["sh", "-c", "chmod +x /usr/local/bin/backup.sh && crond -f"]
+    networks:
+      - backend
+    depends_on:
+      - postgres
+      - mongodb
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"

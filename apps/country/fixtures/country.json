@@ -1,0 +1,17 @@
+[
+  {
+    "model": "country.country",
+    "pk": 1,
+    "fields": {
+      "pid": "1319aa2d741b873bc019dc6e9ea2a204",
+      "created_at": "2024-03-15T09:40:50.876Z",
+      "updated_at": "2024-03-15T09:40:50.876Z",
+      "name": "جمهوری اسلامی ایران",
+      "is_active": true,
+      "is_sms_enabled": true,
+      "code": "IR",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
+      "dial_code": "98"
+    }
+  }
+]

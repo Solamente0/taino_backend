@@ -1,0 +1,41 @@
+[
+  {
+    "name": "ای آی وی (AI V)",
+    "static_name": "v",
+    "description": "هوش مصنوعی وی",
+    "model_name": "deepseek-chat",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "your-deepseek-api-key",
+    "system_prompt": "You are a legal assistant helping users with legal questions in Iran.",
+    "temperature": 0.7,
+    "max_tokens": 4000,
+    "is_default": true,
+    "is_active": true
+  },
+  {
+    "name": "ای آی وی پلاس (AI V+)",
+    "static_name": "v_plus",
+    "description": "هوش مصنوعی وی پلاس",
+    "model_name": "deepseek-reasoner",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "your-deepseek-api-key",
+    "system_prompt": "You are a legal assistant helping users with legal questions in Iran.",
+    "temperature": 0.7,
+    "max_tokens": 4000,
+    "is_default": false,
+    "is_active": true
+  },
+  {
+    "name": "ای آی وی ایکس (AI VX)",
+    "static_name": "v_x",
+    "description": "هوش مصنوعی وی ایکس",
+    "model_name": "deepseek-reasoner",
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "your-deepseek-api-key",
+    "system_prompt": "You are a legal assistant helping users with legal questions in Iran.",
+    "temperature": 0.7,
+    "max_tokens": 4000,
+    "is_default": false,
+    "is_active": true
+  }
+]

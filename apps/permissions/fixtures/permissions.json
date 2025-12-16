@@ -1,0 +1,153 @@
+{
+  "categories": [
+    {
+      "name": "User Management",
+      "description": "Permissions related to user management",
+      "permissions": [
+        {
+          "name": "View Users",
+          "code_name": "user.view",
+          "description": "Permission to view user details"
+        },
+        {
+          "name": "Create Users",
+          "code_name": "user.create",
+          "description": "Permission to create new users"
+        },
+        {
+          "name": "Edit Users",
+          "code_name": "user.edit",
+          "description": "Permission to edit user details"
+        },
+        {
+          "name": "Delete Users",
+          "code_name": "user.delete",
+          "description": "Permission to delete users"
+        }
+      ]
+    },
+    {
+      "name": "Content Management",
+      "description": "Permissions related to content management",
+      "permissions": [
+        {
+          "name": "View Content",
+          "code_name": "content.view",
+          "description": "Permission to view content"
+        },
+        {
+          "name": "Create Content",
+          "code_name": "content.create",
+          "description": "Permission to create new content"
+        },
+        {
+          "name": "Edit Content",
+          "code_name": "content.edit",
+          "description": "Permission to edit content"
+        },
+        {
+          "name": "Delete Content",
+          "code_name": "content.delete",
+          "description": "Permission to delete content"
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "description": "Permissions related to system settings",
+      "permissions": [
+        {
+          "name": "View Settings",
+          "code_name": "settings.view",
+          "description": "Permission to view system settings"
+        },
+        {
+          "name": "Edit Settings",
+          "code_name": "settings.edit",
+          "description": "Permission to edit system settings"
+        }
+      ]
+    },
+    {
+      "name": "Expert Profile",
+      "description": "Permissions related to expert profiles",
+      "permissions": [
+        {
+          "name": "View Expert Profiles",
+          "code_name": "expert_profile.view",
+          "description": "Permission to view expert profiles"
+        },
+        {
+          "name": "Create Expert Profile",
+          "code_name": "expert_profile.create",
+          "description": "Permission to create an expert profile"
+        },
+        {
+          "name": "Edit Expert Profile",
+          "code_name": "expert_profile.edit",
+          "description": "Permission to edit expert profiles"
+        },
+        {
+          "name": "Delete Expert Profile",
+          "code_name": "expert_profile.delete",
+          "description": "Permission to delete expert profiles"
+        }
+      ]
+    },
+    {
+      "name": "Permission Management",
+      "description": "Permissions related to permission management",
+      "permissions": [
+        {
+          "name": "View Permissions",
+          "code_name": "permission.view",
+          "description": "Permission to view permissions"
+        },
+        {
+          "name": "Assign Permissions",
+          "code_name": "permission.assign",
+          "description": "Permission to assign permissions to users and user types"
+        }
+      ]
+    }
+  ],
+  "default_assignments": {
+    "Admin": [
+      "user.view",
+      "user.create",
+      "user.edit",
+      "user.delete",
+      "content.view",
+      "content.create",
+      "content.edit",
+      "content.delete",
+      "settings.view",
+      "settings.edit",
+      "expert_profile.view",
+      "expert_profile.create",
+      "expert_profile.edit",
+      "expert_profile.delete",
+      "permission.view",
+      "permission.assign"
+    ],
+    "Manager": [
+      "user.view",
+      "content.view",
+      "content.create",
+      "content.edit",
+      "expert_profile.view",
+      "expert_profile.create",
+      "expert_profile.edit",
+      "permission.view"
+    ],
+    "Expert": [
+      "content.view",
+      "expert_profile.view",
+      "expert_profile.edit"
+    ],
+    "User": [
+      "content.view",
+      "expert_profile.view"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "model": "social_media.socialmediatype",
+    "pk": 1,
+    "fields": {
+      "type": "Telegram",
+      "link": "http://telegram.com"
+    }
+  },
+  {
+    "model": "social_media.socialmediatype",
+    "pk": 2,
+    "fields": {
+      "type": "Instagram",
+      "link": "http://instagram.com"
+    }
+  },
+  {
+    "model": "social_media.socialmediatype",
+    "pk": 3,
+    "fields": {
+      "type": "Facebook",
+      "link": "http://facebook.com"
+    }
+  },
+  {
+    "model": "social_media.socialmediatype",
+    "pk": 4,
+    "fields": {
+      "type": "Twitter",
+      "link": "http://twitter.com"
+    }
+  },
+  {
+    "model": "social_media.socialmediatype",
+    "pk": 5,
+    "fields": {
+      "type": "LinkedIn",
+      "link": "http://linkedin.com"
+    }
+  },
+  {
+    "model": "social_media.socialmediatype",
+    "pk": 6,
+    "fields": {
+      "type": "Snapchat",
+      "link": "http://snapchat.com"
+    }
+  },
+  {
+    "model": "social_media.socialmediatype",
+    "pk": 7,
+    "fields": {
+      "type": "WhatsApp",
+      "link": "http://whatsapp.com"
+    }
+  },
+  {
+    "model": "social_media.socialmediatype",
+    "pk": 8,
+    "fields": {
+      "type": "YouTube",
+      "link": "http://youtube.com"
+    }
+  },
+  {
+    "model": "social_media.socialmediatype",
+    "pk": 9,
+    "fields": {
+      "type": "Reddit",
+      "link": "http://reddit.com"
+    }
+  },
+  {
+    "model": "social_media.socialmediatype",
+    "pk": 10,
+    "fields": {
+      "type": "Pinterest",
+      "link": "http://pinterest.com"
+    }
+  }
+]

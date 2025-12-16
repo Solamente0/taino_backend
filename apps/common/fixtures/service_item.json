@@ -1,0 +1,692 @@
+[
+  {
+    "model": "common.serviceitem",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "دادخواست بدوی / نخستین",
+      "static_name": "initial_petition",
+      "description": "تنظیم و تحلیل دادخواست بدوی",
+      "order": 1,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "دادخواست تجدید نظر",
+      "static_name": "appeal_petition",
+      "description": "تنظیم و تحلیل دادخواست تجدید نظر",
+      "order": 2,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "name": "درخواست فرجام‌خواهی",
+      "static_name": "cassation_request",
+      "description": "تنظیم درخواست فرجام‌خواهی",
+      "order": 3,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "name": "درخواست واخواهی",
+      "static_name": "retrial_request",
+      "description": "تنظیم درخواست واخواهی",
+      "order": 4,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "name": "درخواست اعاده دادرسی",
+      "static_name": "reopening_request",
+      "description": "تنظیم درخواست اعاده دادرسی",
+      "order": 5,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 6,
+    "fields": {
+      "category": 1,
+      "name": "دادخواست ورود ثالث",
+      "static_name": "third_party_intervention",
+      "description": "تنظیم دادخواست ورود ثالث",
+      "order": 6,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 7,
+    "fields": {
+      "category": 1,
+      "name": "دادخواست جلب ثالث",
+      "static_name": "third_party_joinder",
+      "description": "تنظیم دادخواست جلب ثالث",
+      "order": 7,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "name": "تنظیم لایحه دفاعی",
+      "static_name": "defense_pleading",
+      "description": "تنظیم لایحه دفاعی",
+      "order": 8,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 9,
+    "fields": {
+      "category": 1,
+      "name": "بخش تبادل لوایح",
+      "static_name": "pleadings_exchange",
+      "description": "تبادل و تحلیل لوایح طرفین",
+      "order": 9,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 10,
+    "fields": {
+      "category": 1,
+      "name": "اعاده دادرسی ماده 477 آ.د.ک",
+      "static_name": "article_477_reopening",
+      "description": "اعاده دادرسی طبق ماده 477",
+      "order": 10,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 11,
+    "fields": {
+      "category": 1,
+      "name": "دادخواست اعتراض ثالث اصلی",
+      "static_name": "principal_third_party_objection",
+      "description": "تنظیم دادخواست اعتراض ثالث اصلی",
+      "order": 11,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 12,
+    "fields": {
+      "category": 1,
+      "name": "تنظیم شکوائیه",
+      "static_name": "complaint_drafting",
+      "description": "تنظیم شکوائیه",
+      "order": 12,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 13,
+    "fields": {
+      "category": 1,
+      "name": "اعتراض به قرار دادسرا",
+      "static_name": "prosecutor_order_objection",
+      "description": "اعتراض به قرار دادسرا",
+      "order": 13,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 14,
+    "fields": {
+      "category": 1,
+      "name": "اعتراض به نظریه کارشناسی",
+      "static_name": "expert_opinion_objection",
+      "description": "اعتراض به نظریه کارشناسی",
+      "order": 14,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 15,
+    "fields": {
+      "category": 1,
+      "name": "بخش ویژه کارشناسان",
+      "static_name": "experts_section",
+      "description": "ابزارهای ویژه کارشناسان",
+      "order": 15,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 16,
+    "fields": {
+      "category": 1,
+      "name": "بخش ویژه داوری",
+      "static_name": "arbitration_section",
+      "description": "ابزارهای ویژه داوری",
+      "order": 16,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 17,
+    "fields": {
+      "category": 1,
+      "name": "بخش ویژه قضات",
+      "static_name": "judges_section",
+      "description": "ابزارهای ویژه قضات",
+      "order": 17,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 101,
+    "fields": {
+      "category": 4,
+      "name": "عقد بیع",
+      "static_name": "contract_sale",
+      "description": "تنظیم قرارداد بیع",
+      "order": 1,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 102,
+    "fields": {
+      "category": 4,
+      "name": "عقد معاوضه",
+      "static_name": "contract_exchange",
+      "description": "تنظیم قرارداد معاوضه",
+      "order": 2,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 103,
+    "fields": {
+      "category": 4,
+      "name": "عقد اجاره",
+      "static_name": "contract_lease",
+      "description": "تنظیم قرارداد اجاره",
+      "order": 3,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 104,
+    "fields": {
+      "category": 4,
+      "name": "عقد مزارعه",
+      "static_name": "contract_muzaraa",
+      "description": "تنظیم قرارداد مزارعه",
+      "order": 4,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 105,
+    "fields": {
+      "category": 4,
+      "name": "مساقات",
+      "static_name": "contract_musaqat",
+      "description": "تنظیم قرارداد مساقات",
+      "order": 5,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 106,
+    "fields": {
+      "category": 4,
+      "name": "مضاربه",
+      "static_name": "contract_mudaraba",
+      "description": "تنظیم قرارداد مضاربه",
+      "order": 6,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 107,
+    "fields": {
+      "category": 4,
+      "name": "جعاله",
+      "static_name": "contract_jaalah",
+      "description": "تنظیم قرارداد جعاله",
+      "order": 7,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 108,
+    "fields": {
+      "category": 4,
+      "name": "مشارکت مدنی",
+      "static_name": "contract_civil_partnership",
+      "description": "تنظیم قرارداد مشارکت مدنی",
+      "order": 8,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 109,
+    "fields": {
+      "category": 4,
+      "name": "ودیعه",
+      "static_name": "contract_deposit",
+      "description": "تنظیم قرارداد ودیعه",
+      "order": 9,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 110,
+    "fields": {
+      "category": 4,
+      "name": "عاریه",
+      "static_name": "contract_loan_for_use",
+      "description": "تنظیم قرارداد عاریه",
+      "order": 10,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 111,
+    "fields": {
+      "category": 4,
+      "name": "قرض",
+      "static_name": "contract_loan",
+      "description": "تنظیم قرارداد قرض",
+      "order": 11,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 112,
+    "fields": {
+      "category": 4,
+      "name": "ضمان",
+      "static_name": "contract_guarantee",
+      "description": "تنظیم قرارداد ضمان",
+      "order": 12,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 113,
+    "fields": {
+      "category": 4,
+      "name": "حواله",
+      "static_name": "contract_assignment",
+      "description": "تنظیم قرارداد حواله",
+      "order": 13,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 114,
+    "fields": {
+      "category": 4,
+      "name": "کفالت",
+      "static_name": "contract_surety",
+      "description": "تنظیم قرارداد کفالت",
+      "order": 14,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 115,
+    "fields": {
+      "category": 4,
+      "name": "صلح",
+      "static_name": "contract_settlement",
+      "description": "تنظیم قرارداد صلح",
+      "order": 15,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 116,
+    "fields": {
+      "category": 4,
+      "name": "هبه",
+      "static_name": "contract_gift",
+      "description": "تنظیم قرارداد هبه",
+      "order": 16,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 117,
+    "fields": {
+      "category": 4,
+      "name": "حمل و نقل",
+      "static_name": "contract_transportation",
+      "description": "تنظیم قرارداد حمل و نقل",
+      "order": 17,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 118,
+    "fields": {
+      "category": 4,
+      "name": "حق‌العمل کاری",
+      "static_name": "contract_work_commission",
+      "description": "تنظیم قرارداد حق‌العمل کاری",
+      "order": 18,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 119,
+    "fields": {
+      "category": 4,
+      "name": "فروش اقساطی",
+      "static_name": "contract_installment_sale",
+      "description": "تنظیم قرارداد فروش اقساطی",
+      "order": 19,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 120,
+    "fields": {
+      "category": 4,
+      "name": "مرابحه",
+      "static_name": "contract_murabaha",
+      "description": "تنظیم قرارداد مرابحه",
+      "order": 20,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 121,
+    "fields": {
+      "category": 4,
+      "name": "اجاره به شرط تملیک",
+      "static_name": "contract_lease_to_own",
+      "description": "تنظیم قرارداد اجاره به شرط تملیک",
+      "order": 21,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 122,
+    "fields": {
+      "category": 4,
+      "name": "سلف",
+      "static_name": "contract_salam",
+      "description": "تنظیم قرارداد سلف",
+      "order": 22,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 123,
+    "fields": {
+      "category": 4,
+      "name": "استصناع",
+      "static_name": "contract_istisna",
+      "description": "تنظیم قرارداد استصناع",
+      "order": 23,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 124,
+    "fields": {
+      "category": 4,
+      "name": "اجازه بهره برداری",
+      "static_name": "contract_license",
+      "description": "تنظیم قرارداد اجازه بهره برداری",
+      "order": 24,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 125,
+    "fields": {
+      "category": 4,
+      "name": "انتقال فناوری",
+      "static_name": "contract_technology_transfer",
+      "description": "تنظیم قرارداد انتقال فناوری",
+      "order": 25,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 126,
+    "fields": {
+      "category": 4,
+      "name": "تآلیف و نشر",
+      "static_name": "contract_publishing",
+      "description": "تنظیم قرارداد تآلیف و نشر",
+      "order": 26,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 127,
+    "fields": {
+      "category": 4,
+      "name": "موافقت‌نامه پیمان",
+      "static_name": "contract_agreement",
+      "description": "تنظیم موافقت‌نامه پیمان",
+      "order": 27,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 128,
+    "fields": {
+      "category": 4,
+      "name": "مشارکت در ساخت",
+      "static_name": "contract_construction_partnership",
+      "description": "تنظیم قرارداد مشارکت در ساخت",
+      "order": 28,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.serviceitem",
+    "pk": 129,
+    "fields": {
+      "category": 4,
+      "name": "خصوصی ماده ۱۰",
+      "static_name": "contract_article_10_custom",
+      "description": "تنظیم قرارداد خصوصی ماده ۱۰",
+      "order": 29,
+      "soon": false,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]

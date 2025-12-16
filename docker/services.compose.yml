@@ -1,0 +1,59 @@
+version: '3.8'
+
+name: taino
+services:
+
+  service-postgres:
+    hostname: service_postgres
+    container_name: service_postgres
+    #    image: postgis/postgis:16-3.4
+    image: postgres:16.1-alpine3.19
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=${DB_CONNECTION_USER}
+      - POSTGRES_PASSWORD=${DB_CONNECTION_PASSWORD}
+      - POSTGRES_DB=${DB_CONNECTION_NAME}
+    ports:
+      - ${DB_CONNECTION_PORT}:5432
+    restart: on-failure
+
+  service-redis:
+    image: redis:7.2.4-alpine3.19
+    container_name: service_redis
+    hostname: service_redis
+    ports:
+      - ${REDIS_CONNECTION_PORT}:6379
+    volumes:
+      - redis_data:/data
+    restart: on-failure
+
+  service-rabbitmq:
+    hostname: service_rabbitmq
+    container_name: service_rabbitmq
+    image: rabbitmq:3.12
+    ports:
+      - ${RABBITMQ_CONNECTION_PORT}:5672
+    environment:
+      - RABBITMQ_DEFAULT_USER=${RABBITMQ_CONNECTION_USERNAME}
+      - RABBITMQ_DEFAULT_PASS=${RABBITMQ_CONNECTION_PASSWORD}
+    volumes:
+      - rabbit_data:/var/lib/rabbitmq
+
+  service-mongodb:
+    hostname: service_mongodb
+    container_name: service_mongodb
+    image: mongo:7.0.12
+    ports:
+      - ${MONGODB_CONNECTION_PORT}:27017
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGODB_CONNECTION_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_CONNECTION_PASSWORD}
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  postgres_data:
+  rabbit_data:
+  redis_data:
+  mongodb_data:

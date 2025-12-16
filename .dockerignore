@@ -1,0 +1,8 @@
+#venv
+docker-compose.yml
+services.compose.yml
+#.gitlab-ci.yml
+.env.sample
+#Dockerfile
+.git
+README.md

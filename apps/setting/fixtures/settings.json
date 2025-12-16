@@ -1,0 +1,47 @@
+[
+  {
+    "key": "ai_chat.price.v",
+    "value": "1",
+    "is_active": true
+  },
+  {
+    "key": "ai_chat.price.v_plus",
+    "value": "2",
+    "is_active": true
+  },
+  {
+    "key": "ai_chat.price.v_x",
+    "value": "3",
+    "is_active": true
+  },
+  {
+    "key": "ai_chat.duration",
+    "value": "6",
+    "is_active": true
+  },
+  {
+    "key": "wallet.lawyer_register_prize_coin",
+    "value": "50",
+    "is_active": true
+  },
+  {
+    "key": "wallet.user_register_prize_coin",
+    "value": "10",
+    "is_active": true
+  },
+  {
+    "key": "notification.retention_days",
+    "value": "5",
+    "is_active": true
+  },
+  {
+    "key": "messaging.cost_per_sms",
+    "value": "2",
+    "is_active": true
+  },
+  {
+    "key": "subscription.bypass_premium_feature_per_roles",
+    "value": "lawyer",
+    "is_active": true
+  }
+]

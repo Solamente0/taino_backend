@@ -1,0 +1,98 @@
+[
+  {
+    "model": "ai_chat.generalchataiconfig",
+    "pk": 1,
+    "fields": {
+      "name": "دادخواست بدوی / نخستین",
+      "static_name": "initial_petition",
+      "description": "تحلیل و تنظیم دادخواست بدوی با هوش مصنوعی",
+      "system_instruction": null,
+      "max_messages_per_chat": 10,
+      "max_tokens_per_chat": 20000,
+      "order": 1,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ai_chat.generalchataiconfig",
+    "pk": 2,
+    "fields": {
+      "name": "دادخواست تجدید نظر",
+      "static_name": "appeal_petition",
+      "description": "تحلیل و تنظیم دادخواست تجدید نظر با هوش مصنوعی",
+      "system_instruction": null,
+      "max_messages_per_chat": 10,
+      "max_tokens_per_chat": 20000,
+      "order": 2,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ai_chat.generalchataiconfig",
+    "pk": 3,
+    "fields": {
+      "name": "تنظیم لایحه دفاعی",
+      "static_name": "defense_pleading",
+      "description": "تحلیل و تنظیم لایحه دفاعی با هوش مصنوعی",
+      "system_instruction": null,
+      "max_messages_per_chat": 10,
+      "max_tokens_per_chat": 20000,
+      "order": 3,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ai_chat.generalchataiconfig",
+    "pk": 4,
+    "fields": {
+      "name": "هوش تحلیلگر اسناد",
+      "static_name": "document_analyzer",
+      "description": "تحلیل هوشمند اسناد حقوقی",
+      "system_instruction": null,
+      "max_messages_per_chat": 10,
+      "max_tokens_per_chat": 20000,
+      "order": 4,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ai_chat.generalchataiconfig",
+    "pk": 5,
+    "fields": {
+      "name": "قرارداد نویسی",
+      "static_name": "contract_writer",
+      "description": "تنظیم قراردادهای حقوقی با هوش مصنوعی",
+      "system_instruction": null,
+      "max_messages_per_chat": 5,
+      "max_tokens_per_chat": 30000,
+      "order": 5,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "ai_chat.generalchataiconfig",
+    "pk": 6,
+    "fields": {
+      "name": "چت عمومی",
+      "static_name": "general_chat",
+      "description": "گفتگو با هوش مصنوعی حقوقی",
+      "system_instruction": null,
+      "max_messages_per_chat": 20,
+      "max_tokens_per_chat": 50000,
+      "order": 6,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]

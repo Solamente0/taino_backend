@@ -1,0 +1,137 @@
+[
+  {
+    "model": "common.servicecategory",
+    "pk": 1,
+    "fields": {
+      "name": "هوش حقوقی ایرانی",
+      "static_name": "taino_legal_intelligence",
+      "description": "تحلیل هوشمند اسناد حقوقی با استفاده از هوش مصنوعی",
+      "order": 1,
+      "soon": false,
+      "frontend_route": "/dashboard/ai",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.servicecategory",
+    "pk": 2,
+    "fields": {
+      "name": "چت با هوش مصنوعی",
+      "static_name": "ai_chat",
+      "description": "گفتگو با هوش مصنوعی حقوقی",
+      "order": 2,
+      "soon": false,
+      "frontend_route": "/dashboard/chat-with-ai",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.servicecategory",
+    "pk": 3,
+    "fields": {
+      "name": "درخواست خصوصی",
+      "static_name": "manual_request",
+      "description": "ارسال درخواست خصوصی به تیم پشتیبانی",
+      "order": 3,
+      "soon": false,
+      "frontend_route": "/dashboard/manual-request",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.servicecategory",
+    "pk": 4,
+    "fields": {
+      "name": "قرارداد نویسی",
+      "static_name": "contract_writing",
+      "description": "تهیه و تنظیم انواع قراردادها",
+      "order": 4,
+      "soon": false,
+      "frontend_route": "dashboard/contract",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.servicecategory",
+    "pk": 5,
+    "fields": {
+      "name": "ویژه قضات",
+      "static_name": "judges_special",
+      "description": "ابزارهای تخصصی برای قضات",
+      "order": 5,
+      "soon": false,
+      "frontend_route": "/dashboard/analyze/judge-special",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.servicecategory",
+    "pk": 6,
+    "fields": {
+      "name": "ویژه کارشناسان",
+      "static_name": "experts_special",
+      "description": "ابزارهای تخصصی برای کارشناسان",
+      "order": 6,
+      "soon": false,
+      "frontend_route": "/dashboard/analyze/expert-special",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.servicecategory",
+    "pk": 7,
+    "fields": {
+      "name": "ویژه داوری",
+      "static_name": "arbitration_special",
+      "description": "ابزارهای تخصصی برای داوری",
+      "order": 7,
+      "soon": false,
+      "frontend_route": "/dashboard/analyze/arbitration-special",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.servicecategory",
+    "pk": 8,
+    "fields": {
+      "name": "مراجع شبه قضایی",
+      "static_name": "quasi_judicial",
+      "description": "ابزارهای مراجع شبه قضایی",
+      "order": 8,
+      "soon": true,
+      "frontend_route": "/dashboard",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "common.servicecategory",
+    "pk": 9,
+    "fields": {
+      "name": "کیف پول",
+      "static_name": "wallet",
+      "description": "مدیریت کیف پول و تراکنش‌ها",
+      "order": 9,
+      "soon": false,
+      "frontend_route": "wallet",
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]

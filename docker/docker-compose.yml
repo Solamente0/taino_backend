@@ -1,0 +1,199 @@
+version: '3.8'
+
+services:
+
+  postgres:
+    hostname: taino_postgres
+    container_name: taino_postgres
+    #    image: postgis/postgis:16-3.4
+    image: postgres:16.1-alpine3.19
+    volumes:
+      - taino_postgres_volume:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=${DB_CONNECTION_USER}
+      - POSTGRES_PASSWORD=${DB_CONNECTION_PASSWORD}
+      - POSTGRES_DB=${DB_CONNECTION_NAME}
+    expose:
+      - "5432"
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'pg_isready -U ${DB_CONNECTION_USER} -d ${DB_CONNECTION_NAME}'" ]
+      interval: 120s
+      timeout: 60s
+      retries: 5
+      start_period: 20s
+    restart: on-failure
+    networks:
+      - taino_network
+
+  redis:
+    image: redis:7.2.4-alpine3.19
+    container_name: taino_redis
+    hostname: taino_redis
+    command: redis-server --port 6379
+    expose:
+      - "6379"
+    volumes:
+      - taino_redis_volume:/data
+    healthcheck:
+      test: [ "CMD", "redis-cli", "-p", "6380", "--raw", "incr", "ping" ]
+      interval: 120s
+      timeout: 60s
+      retries: 5
+      start_period: 20s
+    restart: on-failure
+    networks:
+      - taino_network
+
+  rabbitmq:
+    hostname: taino_rabbitmq
+    container_name: taino_rabbitmq
+    image: rabbitmq:3.12
+    environment:
+      - RABBITMQ_DEFAULT_USER=${RABBITMQ_CONNECTION_USERNAME}
+      - RABBITMQ_DEFAULT_PASS=${RABBITMQ_CONNECTION_PASSWORD}
+      - RABBITMQ_NODE_PORT=5672
+    expose:
+      - "5672"
+    volumes:
+      - taino_rabbit_volume:/var/lib/rabbitmq
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 120s
+      timeout: 60s
+      retries: 5
+      start_period: 20s
+    restart: on-failure
+    networks:
+      - taino_network
+
+  mongo:
+    hostname: taino_mongo
+    container_name: taino_mongo
+    image: mongo:7.0.12
+    command: mongod --port 27018
+    expose:
+      - "27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${MONGODB_CONNECTION_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${MONGODB_CONNECTION_PASSWORD}
+      - MONGO_INITDB_DATABASE=${MONGODB_DBNAME}
+    volumes:
+      - taino_mongo_data:/data/db
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27018/test --quiet
+      interval: 120s
+      timeout: 60s
+      retries: 5
+      start_period: 20s
+    restart: on-failure
+    networks:
+      - taino_network
+
+  api:
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+
+    container_name: taino_api
+    hostname: taino_api
+    ports:
+      - "8199:8088"
+    volumes:
+      - ../:/home/app/api
+      - ../:/opt/project # for pycharm 2023 debugging
+      - taino_media_volume:/home/app/media
+    depends_on:
+      - redis
+      - rabbitmq
+      - postgres
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8088/api/ping" ]
+      interval: 60s
+      timeout: 30s
+      retries: 5
+      start_period: 20s
+    restart: on-failure
+    networks:
+      - taino_network
+
+  chat:
+    container_name: taino_chat
+    build:
+      context: ../
+      dockerfile: docker/socket.Dockerfile
+    command: daphne -b 0.0.0.0 -p 8001 config.asgi:application
+    volumes:
+      - ../:/home/app/api
+    ports:
+      - "8102:8001"
+    depends_on:
+      - redis
+      - postgres
+      - mongo
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8001/health/" ]
+      interval: 60s
+      timeout: 30s
+      retries: 5
+      start_period: 20s
+    restart: on-failure
+    networks:
+      - taino_network
+
+  celery-worker:
+    container_name: taino_celery_worker
+    build:
+      context: ../
+      dockerfile: docker/celery.Dockerfile
+
+    command: celery -A config worker -l info
+    volumes:
+      - ../:/home/app/api
+    depends_on:
+      - rabbitmq
+      - postgres
+      - api
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'celery -A config inspect ping'" ]
+      interval: 60s
+      timeout: 60s
+      retries: 5
+      start_period: 15s
+    restart: on-failure
+    networks:
+      - taino_network
+
+  celery-beats:
+    container_name: taino_celery_beats
+    build:
+      context: ../
+      dockerfile: docker/celery.Dockerfile
+
+    command: celery -A config beat -l INFO
+    volumes:
+      - ../:/home/app/api
+    depends_on:
+      - rabbitmq
+      - postgres
+      - api
+    healthcheck:
+      test: [ "CMD-SHELL", "sh -c 'celery -A config inspect ping'" ]
+      interval: 60s
+      timeout: 60s
+      retries: 5
+      start_period: 15s
+    restart: on-failure
+    networks:
+      - taino_network
+
+
+volumes:
+  taino_postgres_volume:
+  taino_rabbit_volume:
+  taino_redis_volume:
+  taino_media_volume:
+  taino_mongo_data:
+
+networks:
+  taino_network:
+    driver: bridge

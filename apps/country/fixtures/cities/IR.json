@@ -1,0 +1,5158 @@
+{
+  "provinces": [
+    {
+      "fa_name": "آذربایجان شرقی",
+      "us_name": "Azarbayjan-e Sharqi",
+      "cities": [
+        {
+          "fa_name": "کشکسرای",
+          "us_name": "Kashkesaray"
+        },
+        {
+          "fa_name": "سهند",
+          "us_name": "Sahand"
+        },
+        {
+          "fa_name": "سیس",
+          "us_name": "Sis"
+        },
+        {
+          "fa_name": "دوزدوزان",
+          "us_name": "Duzduzan"
+        },
+        {
+          "fa_name": "تیمورلو",
+          "us_name": "Teymurlu"
+        },
+        {
+          "fa_name": "صوفیان",
+          "us_name": "Sufiyan"
+        },
+        {
+          "fa_name": "سردرود",
+          "us_name": "Sardrud"
+        },
+        {
+          "fa_name": "هادیشهر",
+          "us_name": "Hadishahr"
+        },
+        {
+          "fa_name": "هشترود",
+          "us_name": "Hashtrood"
+        },
+        {
+          "fa_name": "زرنق",
+          "us_name": "Zarnaq"
+        },
+        {
+          "fa_name": "ترکمانچای",
+          "us_name": "Torkamanchay"
+        },
+        {
+          "fa_name": "ورزقان",
+          "us_name": "Varzeqan"
+        },
+        {
+          "fa_name": "تسوج",
+          "us_name": "Tasuj"
+        },
+        {
+          "fa_name": "زنوز",
+          "us_name": "Zonuz"
+        },
+        {
+          "fa_name": "ایلخچی",
+          "us_name": "Ilkhichi"
+        },
+        {
+          "fa_name": "شرفخانه",
+          "us_name": "Sharafkhaneh"
+        },
+        {
+          "fa_name": "مهربان",
+          "us_name": "Mehraban"
+        },
+        {
+          "fa_name": "مبارک شهر",
+          "us_name": "Mobarakeh Shahr"
+        },
+        {
+          "fa_name": "تیکمه داش",
+          "us_name": "Tikmehdash"
+        },
+        {
+          "fa_name": "باسمنج",
+          "us_name": "Basmenj"
+        },
+        {
+          "fa_name": "سیه رود",
+          "us_name": "Siahrood"
+        },
+        {
+          "fa_name": "میانه",
+          "us_name": "Mianeh"
+        },
+        {
+          "fa_name": "خمارلو",
+          "us_name": "Khomarloo"
+        },
+        {
+          "fa_name": "خواجه",
+          "us_name": "Khajeh"
+        },
+        {
+          "fa_name": "بناب مرند",
+          "us_name": "Bonab Marand"
+        },
+        {
+          "fa_name": "قره آغاج",
+          "us_name": "Qareh Aghaj"
+        },
+        {
+          "fa_name": "وایقان",
+          "us_name": "Vaigan"
+        },
+        {
+          "fa_name": "مراغه",
+          "us_name": "Maragheh"
+        },
+        {
+          "fa_name": "ممقان",
+          "us_name": "Mamqan"
+        },
+        {
+          "fa_name": "خامنه",
+          "us_name": "Khameneh"
+        },
+        {
+          "fa_name": "خسروشاه",
+          "us_name": "Khosrowshah"
+        },
+        {
+          "fa_name": "لیلان",
+          "us_name": "Lilan"
+        },
+        {
+          "fa_name": "نظرکهریزی",
+          "us_name": "Nazar Kahrizi"
+        },
+        {
+          "fa_name": "اهر",
+          "us_name": "Ahar"
+        },
+        {
+          "fa_name": "بخشایش",
+          "us_name": "Bakhshaysh"
+        },
+        {
+          "fa_name": "آقکند",
+          "us_name": "Aqkand"
+        },
+        {
+          "fa_name": "جوان قلعه",
+          "us_name": "Javan Qaleh"
+        },
+        {
+          "fa_name": "کلیبر",
+          "us_name": "Kaleybar"
+        },
+        {
+          "fa_name": "مرند",
+          "us_name": "Marand"
+        },
+        {
+          "fa_name": "اسکو",
+          "us_name": "Osku"
+        },
+        {
+          "fa_name": "شندآباد",
+          "us_name": "Shendabad"
+        },
+        {
+          "fa_name": "شربیان",
+          "us_name": "Sharabian"
+        },
+        {
+          "fa_name": "گوگان",
+          "us_name": "Gugan"
+        },
+        {
+          "fa_name": "بستان آباد",
+          "us_name": "Bostanabad"
+        },
+        {
+          "fa_name": "تبریز",
+          "us_name": "Tabriz"
+        },
+        {
+          "fa_name": "جلفا",
+          "us_name": "Jolfa"
+        },
+        {
+          "fa_name": "اچاچی",
+          "us_name": "Achachi"
+        },
+        {
+          "fa_name": "هریس",
+          "us_name": "Haris"
+        },
+        {
+          "fa_name": "یامچی",
+          "us_name": "Yamchi"
+        },
+        {
+          "fa_name": "خاروانا",
+          "us_name": "Kharvana"
+        },
+        {
+          "fa_name": "کوزه کنان",
+          "us_name": "Koozeh Konan"
+        },
+        {
+          "fa_name": "خداجو(خراجو)",
+          "us_name": "Khoda Jo (Kharajo)"
+        },
+        {
+          "fa_name": "آذرشهر",
+          "us_name": "Azarshahr"
+        },
+        {
+          "fa_name": "شبستر",
+          "us_name": "Shabestar"
+        },
+        {
+          "fa_name": "سراب",
+          "us_name": "Sarab"
+        },
+        {
+          "fa_name": "ملکان",
+          "us_name": "Malekan"
+        },
+        {
+          "fa_name": "بناب",
+          "us_name": "Bonab"
+        },
+        {
+          "fa_name": "هوراند",
+          "us_name": "Hoorand"
+        },
+        {
+          "fa_name": "کلوانق",
+          "us_name": "Kalvanagh"
+        },
+        {
+          "fa_name": "ترک",
+          "us_name": "Tark"
+        },
+        {
+          "fa_name": "عجب شیر",
+          "us_name": "Ajabshir"
+        },
+        {
+          "fa_name": "آبش احمد",
+          "us_name": "Abesh Ahmad"
+        }
+      ]
+    },
+    {
+      "fa_name": "آذربایجان غربی",
+      "us_name": "Azarbayjan-e Gharbi",
+      "cities": [
+        {
+          "fa_name": "تازه شهر",
+          "us_name": "Tazeh Shahr"
+        },
+        {
+          "fa_name": "نالوس",
+          "us_name": "Nalus"
+        },
+        {
+          "fa_name": "ایواوغلی",
+          "us_name": "Eivaghli"
+        },
+        {
+          "fa_name": "شاهین دژ",
+          "us_name": "Shahin Dezh"
+        },
+        {
+          "fa_name": "گردکشانه",
+          "us_name": "Gerd Kashaneh"
+        },
+        {
+          "fa_name": "باروق",
+          "us_name": "Baruq"
+        },
+        {
+          "fa_name": "سیلوانه",
+          "us_name": "Silvaneh"
+        },
+        {
+          "fa_name": "بازرگان",
+          "us_name": "Bazargan"
+        },
+        {
+          "fa_name": "نازک علیا",
+          "us_name": "Nazak Aliya"
+        },
+        {
+          "fa_name": "ربط",
+          "us_name": "Rabt"
+        },
+        {
+          "fa_name": "تکاب",
+          "us_name": "Takab"
+        },
+        {
+          "fa_name": "دیزج دیز",
+          "us_name": "Dizej Diz"
+        },
+        {
+          "fa_name": "سیمینه",
+          "us_name": "Simineh"
+        },
+        {
+          "fa_name": "نوشین",
+          "us_name": "Nushin"
+        },
+        {
+          "fa_name": "میاندوآب",
+          "us_name": "Miandoab"
+        },
+        {
+          "fa_name": "مرگنلر",
+          "us_name": "Marganlar"
+        },
+        {
+          "fa_name": "سلماس",
+          "us_name": "Salmas"
+        },
+        {
+          "fa_name": "آواجیق",
+          "us_name": "Avajigh"
+        },
+        {
+          "fa_name": "قطور",
+          "us_name": "Qotur"
+        },
+        {
+          "fa_name": "محمودآباد",
+          "us_name": "Mahmoodabad"
+        },
+        {
+          "fa_name": "خوی",
+          "us_name": "Khoy"
+        },
+        {
+          "fa_name": "نقده",
+          "us_name": "Naqadeh"
+        },
+        {
+          "fa_name": "سرو",
+          "us_name": "Sero"
+        },
+        {
+          "fa_name": "خلیفان",
+          "us_name": "Khalifan"
+        },
+        {
+          "fa_name": "پلدشت",
+          "us_name": "Poldasht"
+        },
+        {
+          "fa_name": "میرآباد",
+          "us_name": "Mirabad"
+        },
+        {
+          "fa_name": "اشنویه",
+          "us_name": "Oshnavieh"
+        },
+        {
+          "fa_name": "زرآباد",
+          "us_name": "Zarabad"
+        },
+        {
+          "fa_name": "بوکان",
+          "us_name": "Bukan"
+        },
+        {
+          "fa_name": "پیرانشهر",
+          "us_name": "Piranshahr"
+        },
+        {
+          "fa_name": "چهاربرج",
+          "us_name": "Chahar Borj"
+        },
+        {
+          "fa_name": "قوشچی",
+          "us_name": "Qushchi"
+        },
+        {
+          "fa_name": "شوط",
+          "us_name": "Shot"
+        },
+        {
+          "fa_name": "ماکو",
+          "us_name": "Maku"
+        },
+        {
+          "fa_name": "سیه چشمه",
+          "us_name": "Siah Cheshmeh"
+        },
+        {
+          "fa_name": "سردشت",
+          "us_name": "Sardasht"
+        },
+        {
+          "fa_name": "کشاورز",
+          "us_name": "Keshavarz"
+        },
+        {
+          "fa_name": "فیرورق",
+          "us_name": "Firuraq"
+        },
+        {
+          "fa_name": "محمدیار",
+          "us_name": "Mohammadyar"
+        },
+        {
+          "fa_name": "ارومیه",
+          "us_name": "Urmia"
+        },
+        {
+          "fa_name": "مهاباد",
+          "us_name": "Mahabad"
+        },
+        {
+          "fa_name": "قره ضیاءالدین",
+          "us_name": "Qarah Zia' od Din"
+        }
+      ]
+    },
+    {
+      "fa_name": "اردبیل",
+      "us_name": "Ardabil",
+      "cities": [
+        {
+          "fa_name": "پارس آباد",
+          "us_name": "Parsabad"
+        },
+        {
+          "fa_name": "فخراباد",
+          "us_name": "Fakhrabad"
+        },
+        {
+          "fa_name": "کلور",
+          "us_name": "Kelor"
+        },
+        {
+          "fa_name": "نیر",
+          "us_name": "Nir"
+        },
+        {
+          "fa_name": "اردبیل",
+          "us_name": "Ardabil"
+        },
+        {
+          "fa_name": "اسلام اباد",
+          "us_name": "Eslamabad"
+        },
+        {
+          "fa_name": "تازه کندانگوت",
+          "us_name": "Tazeh Kand-e Angut"
+        },
+        {
+          "fa_name": "مشگین شهر",
+          "us_name": "Meshgin Shahr"
+        },
+        {
+          "fa_name": "جعفرآباد",
+          "us_name": "Jafarabad"
+        },
+        {
+          "fa_name": "نمین",
+          "us_name": "Namin"
+        },
+        {
+          "fa_name": "اصلاندوز",
+          "us_name": "Aslandooz"
+        },
+        {
+          "fa_name": "مرادلو",
+          "us_name": "Moradloo"
+        },
+        {
+          "fa_name": "خلخال",
+          "us_name": "Khalkhal"
+        },
+        {
+          "fa_name": "کوراییم",
+          "us_name": "Kuraim"
+        },
+        {
+          "fa_name": "هیر",
+          "us_name": "Hir"
+        },
+        {
+          "fa_name": "گیوی",
+          "us_name": "Givi"
+        },
+        {
+          "fa_name": "گرمی",
+          "us_name": "Germi"
+        },
+        {
+          "fa_name": "لاهرود",
+          "us_name": "Lahrood"
+        },
+        {
+          "fa_name": "هشتجین",
+          "us_name": "Hashtjin"
+        },
+        {
+          "fa_name": "عنبران",
+          "us_name": "Anbaran"
+        },
+        {
+          "fa_name": "تازه کند",
+          "us_name": "Tazeh Kand"
+        },
+        {
+          "fa_name": "قصابه",
+          "us_name": "Ghasabeh"
+        },
+        {
+          "fa_name": "رضی",
+          "us_name": "Razi"
+        },
+        {
+          "fa_name": "سرعین",
+          "us_name": "Sarein"
+        },
+        {
+          "fa_name": "بیله سوار",
+          "us_name": "Bilesavar"
+        },
+        {
+          "fa_name": "آبی بیگلو",
+          "us_name": "Abi Beyglu"
+        }
+      ]
+    },
+    {
+      "fa_name": "اصفهان",
+      "us_name": "Esfahan",
+      "cities": [
+        {
+          "fa_name": "گزبرخوار",
+          "us_name": "Gaz Borkhar"
+        },
+        {
+          "fa_name": "زیار",
+          "us_name": "Ziyar"
+        },
+        {
+          "fa_name": "زرین شهر",
+          "us_name": "Zarrin Shahr"
+        },
+        {
+          "fa_name": "گلشن",
+          "us_name": "Golshan"
+        },
+        {
+          "fa_name": "پیربکران",
+          "us_name": "Pir Bakran"
+        },
+        {
+          "fa_name": "خالدآباد",
+          "us_name": "Khaledabad"
+        },
+        {
+          "fa_name": "سجزی",
+          "us_name": "Sejzi"
+        },
+        {
+          "fa_name": "گوگد",
+          "us_name": "Guged"
+        },
+        {
+          "fa_name": "تیران",
+          "us_name": "Tiran"
+        },
+        {
+          "fa_name": "ونک",
+          "us_name": "Vanak"
+        },
+        {
+          "fa_name": "دهق",
+          "us_name": "Dehagh"
+        },
+        {
+          "fa_name": "زواره",
+          "us_name": "Zavareh"
+        },
+        {
+          "fa_name": "کاشان",
+          "us_name": "Kashan"
+        },
+        {
+          "fa_name": "ابوزیدآباد",
+          "us_name": "Abuzeydabad"
+        },
+        {
+          "fa_name": "اصغرآباد",
+          "us_name": "Asgharabad"
+        },
+        {
+          "fa_name": "بافران",
+          "us_name": "Bafran"
+        },
+        {
+          "fa_name": "شهرضا",
+          "us_name": "Shahreza"
+        },
+        {
+          "fa_name": "خور",
+          "us_name": "Khur"
+        },
+        {
+          "fa_name": "مجلسی",
+          "us_name": "Majlesi"
+        },
+        {
+          "fa_name": "هرند",
+          "us_name": "Harand"
+        },
+        {
+          "fa_name": "فولادشهر",
+          "us_name": "Fooladshahr"
+        },
+        {
+          "fa_name": "کمشچه",
+          "us_name": "Kamshecheh"
+        },
+        {
+          "fa_name": "کلیشادوسودرجان",
+          "us_name": "Kelishad va Soderjan"
+        },
+        {
+          "fa_name": "لای بید",
+          "us_name": "Lay Bid"
+        },
+        {
+          "fa_name": "قهجاورستان",
+          "us_name": "Qahjavarestan"
+        },
+        {
+          "fa_name": "چرمهین",
+          "us_name": "Chermahin"
+        },
+        {
+          "fa_name": "رزوه",
+          "us_name": "Razaveh"
+        },
+        {
+          "fa_name": "فریدونشهر",
+          "us_name": "Fereydunshahr"
+        },
+        {
+          "fa_name": "طرق رود",
+          "us_name": "Tarakrood"
+        },
+        {
+          "fa_name": "نصرآباد",
+          "us_name": "Nasrabad"
+        },
+        {
+          "fa_name": "برزک",
+          "us_name": "Barzok"
+        },
+        {
+          "fa_name": "سفیدشهر",
+          "us_name": "Sefidshahr"
+        },
+        {
+          "fa_name": "سمیرم",
+          "us_name": "Semirom"
+        },
+        {
+          "fa_name": "گلدشت",
+          "us_name": "Goldasht"
+        },
+        {
+          "fa_name": "اردستان",
+          "us_name": "Ardestan"
+        },
+        {
+          "fa_name": "جوشقان قالی",
+          "us_name": "Joshqan-e Qali"
+        },
+        {
+          "fa_name": "بویین ومیاندشت",
+          "us_name": "Buin va Miandasht"
+        },
+        {
+          "fa_name": "کرکوند",
+          "us_name": "Karkovand"
+        },
+        {
+          "fa_name": "درچه",
+          "us_name": "Dorcheh"
+        },
+        {
+          "fa_name": "انارک",
+          "us_name": "Anarak"
+        },
+        {
+          "fa_name": "دولت آباد",
+          "us_name": "Dowlatabad"
+        },
+        {
+          "fa_name": "ایمانشهر",
+          "us_name": "Imanshahr"
+        },
+        {
+          "fa_name": "گرگاب",
+          "us_name": "Gorgab"
+        },
+        {
+          "fa_name": "حسن آباد",
+          "us_name": "Hasanabad"
+        },
+        {
+          "fa_name": "سده لنجان",
+          "us_name": "Sedeh Lenjan"
+        },
+        {
+          "fa_name": "حبیب آباد",
+          "us_name": "Habibabad"
+        },
+        {
+          "fa_name": "بهاران شهر",
+          "us_name": "Baharan Shahr"
+        },
+        {
+          "fa_name": "میمه",
+          "us_name": "Meymeh"
+        },
+        {
+          "fa_name": "تودشک",
+          "us_name": "Toudeshk"
+        },
+        {
+          "fa_name": "گلشهر",
+          "us_name": "Golshahr"
+        },
+        {
+          "fa_name": "رضوانشهر",
+          "us_name": "Rezvanshahr"
+        },
+        {
+          "fa_name": "داران",
+          "us_name": "Daran"
+        },
+        {
+          "fa_name": "علویجه",
+          "us_name": "Alavijeh"
+        },
+        {
+          "fa_name": "نیک آباد",
+          "us_name": "Nikabad"
+        },
+        {
+          "fa_name": "مشکات",
+          "us_name": "Moshkat"
+        },
+        {
+          "fa_name": "آران وبیدگل",
+          "us_name": "Aran va Bidgol"
+        },
+        {
+          "fa_name": "خوانسار",
+          "us_name": "Khansar"
+        },
+        {
+          "fa_name": "نجف آباد",
+          "us_name": "Najafabad"
+        },
+        {
+          "fa_name": "منظریه",
+          "us_name": "Manzariyeh"
+        },
+        {
+          "fa_name": "فرخی",
+          "us_name": "Farrokhi"
+        },
+        {
+          "fa_name": "دیزیچه",
+          "us_name": "Dizicheh"
+        },
+        {
+          "fa_name": "اژیه",
+          "us_name": "Ezhieh"
+        },
+        {
+          "fa_name": "زاینده رود",
+          "us_name": "Zayandeh Rud"
+        },
+        {
+          "fa_name": "خورزوق",
+          "us_name": "Khorzuq"
+        },
+        {
+          "fa_name": "قهدریجان",
+          "us_name": "Ghahderijan"
+        },
+        {
+          "fa_name": "شاهین شهر",
+          "us_name": "Shahin Shahr"
+        },
+        {
+          "fa_name": "بهارستان",
+          "us_name": "Baharestan"
+        },
+        {
+          "fa_name": "چمگردان",
+          "us_name": "Chamgordan"
+        },
+        {
+          "fa_name": "دهاقان",
+          "us_name": "Dehaghan"
+        },
+        {
+          "fa_name": "برف انبار",
+          "us_name": "Barf Anbar"
+        },
+        {
+          "fa_name": "بادرود",
+          "us_name": "Badroud"
+        },
+        {
+          "fa_name": "کوهپایه",
+          "us_name": "Kuhpayeh"
+        },
+        {
+          "fa_name": "گلپایگان",
+          "us_name": "Golpayegan"
+        },
+        {
+          "fa_name": "عسگران",
+          "us_name": "Asgaran"
+        },
+        {
+          "fa_name": "حنا",
+          "us_name": "Hanna"
+        },
+        {
+          "fa_name": "کهریزسنگ",
+          "us_name": "Kahriz Sang"
+        },
+        {
+          "fa_name": "مهاباد",
+          "us_name": "Mahabad"
+        },
+        {
+          "fa_name": "کامو و چوگان",
+          "us_name": "Kamo va Chugan"
+        },
+        {
+          "fa_name": "افوس",
+          "us_name": "Afus"
+        },
+        {
+          "fa_name": "زیباشهر",
+          "us_name": "Zibashahr"
+        },
+        {
+          "fa_name": "کوشک",
+          "us_name": "Kooshk"
+        },
+        {
+          "fa_name": "نایین",
+          "us_name": "Naein"
+        },
+        {
+          "fa_name": "سین",
+          "us_name": "Sin"
+        },
+        {
+          "fa_name": "زازران",
+          "us_name": "Zazaran"
+        },
+        {
+          "fa_name": "مبارکه",
+          "us_name": "Mobarakeh"
+        },
+        {
+          "fa_name": "ورزنه",
+          "us_name": "Varzaneh"
+        },
+        {
+          "fa_name": "ورنامخواست",
+          "us_name": "Varnamkhast"
+        },
+        {
+          "fa_name": "شاپورآباد",
+          "us_name": "Shapurabad"
+        },
+        {
+          "fa_name": "فلاورجان",
+          "us_name": "Falavarjan"
+        },
+        {
+          "fa_name": "وزوان",
+          "us_name": "Vazvan"
+        },
+        {
+          "fa_name": "اصفهان",
+          "us_name": "Esfahan"
+        },
+        {
+          "fa_name": "باغ بهادران",
+          "us_name": "Bagh Bahadoran"
+        },
+        {
+          "fa_name": "چادگان",
+          "us_name": "Chadegan"
+        },
+        {
+          "fa_name": "دامنه",
+          "us_name": "Damaneh"
+        },
+        {
+          "fa_name": "نطنز",
+          "us_name": "Natanz"
+        },
+        {
+          "fa_name": "محمدآباد",
+          "us_name": "Mohammadabad"
+        },
+        {
+          "fa_name": "نیاسر",
+          "us_name": "Niyasar"
+        },
+        {
+          "fa_name": "نوش آباد",
+          "us_name": "Nushabad"
+        },
+        {
+          "fa_name": "کمه",
+          "us_name": "Komeh"
+        },
+        {
+          "fa_name": "جوزدان",
+          "us_name": "Jowzdan"
+        },
+        {
+          "fa_name": "قمصر",
+          "us_name": "Ghamsar"
+        },
+        {
+          "fa_name": "جندق",
+          "us_name": "Jandagh"
+        },
+        {
+          "fa_name": "طالخونچه",
+          "us_name": "Talkhooncheh"
+        },
+        {
+          "fa_name": "خمینی شهر",
+          "us_name": "Khomeynishahr"
+        },
+        {
+          "fa_name": "باغشاد",
+          "us_name": "Baghshad"
+        },
+        {
+          "fa_name": "دستگرد",
+          "us_name": "Dastgerd"
+        },
+        {
+          "fa_name": "ابریشم",
+          "us_name": "Abrisham"
+        }
+      ]
+    },
+    {
+      "fa_name": "البرز",
+      "us_name": "Alborz",
+      "cities": [
+        {
+          "fa_name": "چهارباغ",
+          "us_name": "Charbagh"
+        },
+        {
+          "fa_name": "آسارا",
+          "us_name": "Asara"
+        },
+        {
+          "fa_name": "کرج",
+          "us_name": "Karaj"
+        },
+        {
+          "fa_name": "طالقان",
+          "us_name": "Taleqan"
+        },
+        {
+          "fa_name": "شهرجدیدهشتگرد",
+          "us_name": "Shahr Jadid-e Hashtgerd"
+        },
+        {
+          "fa_name": "محمدشهر",
+          "us_name": "Mohammadshahr"
+        },
+        {
+          "fa_name": "مشکین دشت",
+          "us_name": "Meshkin Dasht"
+        },
+        {
+          "fa_name": "نظرآباد",
+          "us_name": "Nazarabad"
+        },
+        {
+          "fa_name": "هشتگرد",
+          "us_name": "Hashtgerd"
+        },
+        {
+          "fa_name": "ماهدشت",
+          "us_name": "Mahdasht"
+        },
+        {
+          "fa_name": "اشتهارد",
+          "us_name": "Eshtehard"
+        },
+        {
+          "fa_name": "کوهسار",
+          "us_name": "Kuhsar"
+        },
+        {
+          "fa_name": "گرمدره",
+          "us_name": "Garmdareh"
+        },
+        {
+          "fa_name": "تنکمان",
+          "us_name": "Tankaman"
+        },
+        {
+          "fa_name": "گلسار",
+          "us_name": "Golsar"
+        },
+        {
+          "fa_name": "کمال شهر",
+          "us_name": "Kamalshahr"
+        },
+        {
+          "fa_name": "فردیس",
+          "us_name": "Fardis"
+        }
+      ]
+    },
+    {
+      "fa_name": "ایلام",
+      "us_name": "Ilam",
+      "cities": [
+        {
+          "fa_name": "آبدانان",
+          "us_name": "Abdanan"
+        },
+        {
+          "fa_name": "شباب",
+          "us_name": "Shabab"
+        },
+        {
+          "fa_name": "موسیان",
+          "us_name": "Mousian"
+        },
+        {
+          "fa_name": "بدره",
+          "us_name": "Badreh"
+        },
+        {
+          "fa_name": "ایلام",
+          "us_name": "Ilam"
+        },
+        {
+          "fa_name": "ایوان",
+          "us_name": "Ivan"
+        },
+        {
+          "fa_name": "مهران",
+          "us_name": "Mehran"
+        },
+        {
+          "fa_name": "آسمان آباد",
+          "us_name": "Asemanabad"
+        },
+        {
+          "fa_name": "پهله",
+          "us_name": "Pahleh"
+        },
+        {
+          "fa_name": "مهر",
+          "us_name": "Mehr"
+        },
+        {
+          "fa_name": "سراب باغ",
+          "us_name": "Sarab Bagh"
+        },
+        {
+          "fa_name": "بلاوه",
+          "us_name": "Balah"
+        },
+        {
+          "fa_name": "میمه",
+          "us_name": "Meymeh"
+        },
+        {
+          "fa_name": "دره شهر",
+          "us_name": "Darreh Shahr"
+        },
+        {
+          "fa_name": "ارکواز",
+          "us_name": "Arkavaz"
+        },
+        {
+          "fa_name": "مورموری",
+          "us_name": "Murmuri"
+        },
+        {
+          "fa_name": "توحید",
+          "us_name": "Tohid"
+        },
+        {
+          "fa_name": "دهلران",
+          "us_name": "Dehloran"
+        },
+        {
+          "fa_name": "لومار",
+          "us_name": "Lumar"
+        },
+        {
+          "fa_name": "چوار",
+          "us_name": "Chavar"
+        },
+        {
+          "fa_name": "زرنه",
+          "us_name": "Zarneh"
+        },
+        {
+          "fa_name": "صالح آباد",
+          "us_name": "Salehabad"
+        },
+        {
+          "fa_name": "سرابله",
+          "us_name": "Sarableh"
+        },
+        {
+          "fa_name": "ماژین",
+          "us_name": "Majin"
+        },
+        {
+          "fa_name": "دلگشا",
+          "us_name": "Delgosha"
+        }
+      ]
+    },
+    {
+      "fa_name": "بوشهر",
+      "us_name": "Bushehr",
+      "cities": [
+        {
+          "fa_name": "ریز",
+          "us_name": "Riz"
+        },
+        {
+          "fa_name": "برازجان",
+          "us_name": "Borazjan"
+        },
+        {
+          "fa_name": "بندرریگ",
+          "us_name": "Bandar Rig"
+        },
+        {
+          "fa_name": "اهرم",
+          "us_name": "Ahram"
+        },
+        {
+          "fa_name": "دوراهک",
+          "us_name": "Dorahak"
+        },
+        {
+          "fa_name": "خورموج",
+          "us_name": "Khormoj"
+        },
+        {
+          "fa_name": "نخل تقی",
+          "us_name": "Nakhl Taghi"
+        },
+        {
+          "fa_name": "کلمه",
+          "us_name": "Kalameh"
+        },
+        {
+          "fa_name": "بندردیلم",
+          "us_name": "Bandar Deylam"
+        },
+        {
+          "fa_name": "وحدتیه",
+          "us_name": "Vahdatiyeh"
+        },
+        {
+          "fa_name": "بنک",
+          "us_name": "Banak"
+        },
+        {
+          "fa_name": "چغادک",
+          "us_name": "Choghadak"
+        },
+        {
+          "fa_name": "بندردیر",
+          "us_name": "Bandar Dayyer"
+        },
+        {
+          "fa_name": "کاکی",
+          "us_name": "Kaki"
+        },
+        {
+          "fa_name": "جم",
+          "us_name": "Jam"
+        },
+        {
+          "fa_name": "دالکی",
+          "us_name": "Dalaki"
+        },
+        {
+          "fa_name": "بندرگناوه",
+          "us_name": "Bandar Ganaveh"
+        },
+        {
+          "fa_name": "آباد",
+          "us_name": "Abad"
+        },
+        {
+          "fa_name": "آبدان",
+          "us_name": "Abdan"
+        },
+        {
+          "fa_name": "خارک",
+          "us_name": "Khark"
+        },
+        {
+          "fa_name": "شنبه",
+          "us_name": "Shonbeh"
+        },
+        {
+          "fa_name": "بوشکان",
+          "us_name": "Boshkan"
+        },
+        {
+          "fa_name": "انارستان",
+          "us_name": "Anarestan"
+        },
+        {
+          "fa_name": "شبانکاره",
+          "us_name": "Shabankareh"
+        },
+        {
+          "fa_name": "سیراف",
+          "us_name": "Siraf"
+        },
+        {
+          "fa_name": "دلوار",
+          "us_name": "Delvar"
+        },
+        {
+          "fa_name": "بردستان",
+          "us_name": "Bardestan"
+        },
+        {
+          "fa_name": "بادوله",
+          "us_name": "Baduleh"
+        },
+        {
+          "fa_name": "عسلویه",
+          "us_name": "Asaluyeh"
+        },
+        {
+          "fa_name": "تنگ ارم",
+          "us_name": "Tang-e Eram"
+        },
+        {
+          "fa_name": "امام حسن",
+          "us_name": "Emam Hasan"
+        },
+        {
+          "fa_name": "سعد آباد",
+          "us_name": "Saadabad"
+        },
+        {
+          "fa_name": "بندرکنگان",
+          "us_name": "Bandar Kangan"
+        },
+        {
+          "fa_name": "بوشهر",
+          "us_name": "Bushehr"
+        },
+        {
+          "fa_name": "بردخون",
+          "us_name": "Bardkhun"
+        },
+        {
+          "fa_name": "آب پخش",
+          "us_name": "Ab Pakhsh"
+        }
+      ]
+    },
+    {
+      "fa_name": "تهران",
+      "us_name": "Tehran",
+      "cities": [
+        {
+          "fa_name": "شاهدشهر",
+          "us_name": "Shahedshahr"
+        },
+        {
+          "fa_name": "پیشوا",
+          "us_name": "Pishva"
+        },
+        {
+          "fa_name": "جوادآباد",
+          "us_name": "Javadabad"
+        },
+        {
+          "fa_name": "ارجمند",
+          "us_name": "Arjmand"
+        },
+        {
+          "fa_name": "ری",
+          "us_name": "Rey"
+        },
+        {
+          "fa_name": "نصیرشهر",
+          "us_name": "Nasirshahr"
+        },
+        {
+          "fa_name": "رودهن",
+          "us_name": "Roudehen"
+        },
+        {
+          "fa_name": "اندیشه",
+          "us_name": "Andisheh"
+        },
+        {
+          "fa_name": "نسیم شهر",
+          "us_name": "Nasimshahr"
+        },
+        {
+          "fa_name": "صباشهر",
+          "us_name": "Sabashahr"
+        },
+        {
+          "fa_name": "ملارد",
+          "us_name": "Malard"
+        },
+        {
+          "fa_name": "شمشک",
+          "us_name": "Shemshak"
+        },
+        {
+          "fa_name": "پاکدشت",
+          "us_name": "Pakdasht"
+        },
+        {
+          "fa_name": "باقرشهر",
+          "us_name": "Baghershahr"
+        },
+        {
+          "fa_name": "احمد آباد مستوفی",
+          "us_name": "Ahmadabad-e Mostowfi"
+        },
+        {
+          "fa_name": "کیلان",
+          "us_name": "Kilan"
+        },
+        {
+          "fa_name": "قرچک",
+          "us_name": "Qarchak"
+        },
+        {
+          "fa_name": "فردوسیه",
+          "us_name": "Fardisyeh"
+        },
+        {
+          "fa_name": "گلستان",
+          "us_name": "Golestan"
+        },
+        {
+          "fa_name": "ورامین",
+          "us_name": "Varamin"
+        },
+        {
+          "fa_name": "فیروزکوه",
+          "us_name": "Firuzkuh"
+        },
+        {
+          "fa_name": "فشم",
+          "us_name": "Fasham"
+        },
+        {
+          "fa_name": "پرند",
+          "us_name": "Parand"
+        },
+        {
+          "fa_name": "آبعلی",
+          "us_name": "Abali"
+        },
+        {
+          "fa_name": "چهاردانگه",
+          "us_name": "Chahar Dangeh"
+        },
+        {
+          "fa_name": "تهران",
+          "us_name": "Tehran"
+        },
+        {
+          "fa_name": "بومهن",
+          "us_name": "Bumehen"
+        },
+        {
+          "fa_name": "وحیدیه",
+          "us_name": "Vahidieh"
+        },
+        {
+          "fa_name": "صفادشت",
+          "us_name": "Safadasht"
+        },
+        {
+          "fa_name": "لواسان",
+          "us_name": "Lavasan"
+        },
+        {
+          "fa_name": "فرون اباد",
+          "us_name": "Foron Abad"
+        },
+        {
+          "fa_name": "کهریزک",
+          "us_name": "Kahrizak"
+        },
+        {
+          "fa_name": "رباطکریم",
+          "us_name": "Robat Karim"
+        },
+        {
+          "fa_name": "آبسرد",
+          "us_name": "Absard"
+        },
+        {
+          "fa_name": "باغستان",
+          "us_name": "Baghestan"
+        },
+        {
+          "fa_name": "صالحیه",
+          "us_name": "Salehiyeh"
+        },
+        {
+          "fa_name": "شهریار",
+          "us_name": "Shahriyar"
+        },
+        {
+          "fa_name": "قدس",
+          "us_name": "Qods"
+        },
+        {
+          "fa_name": "تجریش",
+          "us_name": "Tajrish"
+        },
+        {
+          "fa_name": "شریف آباد",
+          "us_name": "Sharifabad"
+        },
+        {
+          "fa_name": "حسن آباد",
+          "us_name": "Hasanabad"
+        },
+        {
+          "fa_name": "اسلامشهر",
+          "us_name": "Eslamshahr"
+        },
+        {
+          "fa_name": "دماوند",
+          "us_name": "Damavand"
+        },
+        {
+          "fa_name": "پردیس",
+          "us_name": "Pardis"
+        }
+      ]
+    },
+    {
+      "fa_name": "چهارمحال و بختیاری",
+      "us_name": "Chaharmahal and Bakhtiari",
+      "cities": [
+        {
+          "fa_name": "وردنجان",
+          "us_name": "Vardanjan"
+        },
+        {
+          "fa_name": "گوجان",
+          "us_name": "Gujan"
+        },
+        {
+          "fa_name": "گهرو",
+          "us_name": "Gahru"
+        },
+        {
+          "fa_name": "سورشجان",
+          "us_name": "Sureshjan"
+        },
+        {
+          "fa_name": "سرخون",
+          "us_name": "Sarkhun"
+        },
+        {
+          "fa_name": "شهرکرد",
+          "us_name": "Shahrekord"
+        },
+        {
+          "fa_name": "منج",
+          "us_name": "Monj"
+        },
+        {
+          "fa_name": "بروجن",
+          "us_name": "Borujen"
+        },
+        {
+          "fa_name": "پردنجان",
+          "us_name": "Pardenjan"
+        },
+        {
+          "fa_name": "سامان",
+          "us_name": "Saman"
+        },
+        {
+          "fa_name": "فرخ شهر",
+          "us_name": "Farrokh Shahr"
+        },
+        {
+          "fa_name": "صمصامی",
+          "us_name": "Samsami"
+        },
+        {
+          "fa_name": "طاقانک",
+          "us_name": "Taganak"
+        },
+        {
+          "fa_name": "کاج",
+          "us_name": "Kaj"
+        },
+        {
+          "fa_name": "نقنه",
+          "us_name": "Naghan"
+        },
+        {
+          "fa_name": "لردگان",
+          "us_name": "Lordegan"
+        },
+        {
+          "fa_name": "باباحیدر",
+          "us_name": "Babaheydar"
+        },
+        {
+          "fa_name": "دستنا",
+          "us_name": "Destna"
+        },
+        {
+          "fa_name": "سودجان",
+          "us_name": "Sudjan"
+        },
+        {
+          "fa_name": "بازفت",
+          "us_name": "Bazoft"
+        },
+        {
+          "fa_name": "هفشجان",
+          "us_name": "Hafshejan"
+        },
+        {
+          "fa_name": "سردشت",
+          "us_name": "Sardasht"
+        },
+        {
+          "fa_name": "فرادبنه",
+          "us_name": "Faradonbeh"
+        },
+        {
+          "fa_name": "چلیچه",
+          "us_name": "Chelcheh"
+        },
+        {
+          "fa_name": "بن",
+          "us_name": "Ben"
+        },
+        {
+          "fa_name": "فارسان",
+          "us_name": "Farsan"
+        },
+        {
+          "fa_name": "شلمزار",
+          "us_name": "Shalamzar"
+        },
+        {
+          "fa_name": "نافچ",
+          "us_name": "Nafch"
+        },
+        {
+          "fa_name": "دشتک",
+          "us_name": "Dashtak"
+        },
+        {
+          "fa_name": "بلداجی",
+          "us_name": "Boldaji"
+        },
+        {
+          "fa_name": "آلونی",
+          "us_name": "Aluni"
+        },
+        {
+          "fa_name": "گندمان",
+          "us_name": "Gandoman"
+        },
+        {
+          "fa_name": "جونقان",
+          "us_name": "Junqan"
+        },
+        {
+          "fa_name": "ناغان",
+          "us_name": "Naghan"
+        },
+        {
+          "fa_name": "هارونی",
+          "us_name": "Haruni"
+        },
+        {
+          "fa_name": "چلگرد",
+          "us_name": "Chelgerd"
+        },
+        {
+          "fa_name": "کیان",
+          "us_name": "Kian"
+        },
+        {
+          "fa_name": "اردل",
+          "us_name": "Ardal"
+        },
+        {
+          "fa_name": "سفیددشت",
+          "us_name": "Sepiddasht"
+        },
+        {
+          "fa_name": "مال خلیفه",
+          "us_name": "Mal-e Khalifeh"
+        }
+      ]
+    },
+    {
+      "fa_name": "خراسان جنوبی",
+      "us_name": "South Khorasan",
+      "cities": [
+        {
+          "fa_name": "اسلامیه",
+          "us_name": "Eslamiyeh"
+        },
+        {
+          "fa_name": "شوسف",
+          "us_name": "Shoosf"
+        },
+        {
+          "fa_name": "قاین",
+          "us_name": "Qaen"
+        },
+        {
+          "fa_name": "عشق آباد",
+          "us_name": "Eshqabad"
+        },
+        {
+          "fa_name": "طبس مسینا",
+          "us_name": "Tabas Masina"
+        },
+        {
+          "fa_name": "ارسک",
+          "us_name": "Eresk"
+        },
+        {
+          "fa_name": "آیسک",
+          "us_name": "Aysk"
+        },
+        {
+          "fa_name": "نیمبلوک",
+          "us_name": "Nimbalak"
+        },
+        {
+          "fa_name": "دیهوک",
+          "us_name": "Deyhuk"
+        },
+        {
+          "fa_name": "سربیشه",
+          "us_name": "Sarbisheh"
+        },
+        {
+          "fa_name": "محمدشهر",
+          "us_name": "Mohammadshahr"
+        },
+        {
+          "fa_name": "بیرجند",
+          "us_name": "Birjand"
+        },
+        {
+          "fa_name": "فردوس",
+          "us_name": "Ferdows"
+        },
+        {
+          "fa_name": "نهبندان",
+          "us_name": "Nehbandan"
+        },
+        {
+          "fa_name": "اسفدن",
+          "us_name": "Esfeden"
+        },
+        {
+          "fa_name": "گزیک",
+          "us_name": "Gazik"
+        },
+        {
+          "fa_name": "حاجی آباد",
+          "us_name": "Hajiabad"
+        },
+        {
+          "fa_name": "سه قلعه",
+          "us_name": "Seh Qaleh"
+        },
+        {
+          "fa_name": "آرین شهر",
+          "us_name": "Arian Shahr"
+        },
+        {
+          "fa_name": "مود",
+          "us_name": "Mood"
+        },
+        {
+          "fa_name": "خوسف",
+          "us_name": "Khusf"
+        },
+        {
+          "fa_name": "قهستان",
+          "us_name": "Qohistan"
+        },
+        {
+          "fa_name": "بشرویه",
+          "us_name": "Boshrouyeh"
+        },
+        {
+          "fa_name": "سرایان",
+          "us_name": "Sarayan"
+        },
+        {
+          "fa_name": "خضری دشت بیاض",
+          "us_name": "Khodaverdi Dasht-e Biyaban"
+        },
+        {
+          "fa_name": "طبس",
+          "us_name": "Tabas"
+        },
+        {
+          "fa_name": "اسدیه",
+          "us_name": "Asadiyeh"
+        },
+        {
+          "fa_name": "زهان",
+          "us_name": "Zohan"
+        }
+      ]
+    },
+    {
+      "fa_name": "خراسان رضوی",
+      "us_name": "Khorasan Razavi",
+      "cities": [
+        {
+          "fa_name": "بار",
+          "us_name": "Bar"
+        },
+        {
+          "fa_name": "نیل شهر",
+          "us_name": "Neyshahr"
+        },
+        {
+          "fa_name": "جنگل",
+          "us_name": "Jangal"
+        },
+        {
+          "fa_name": "درود",
+          "us_name": "Darood"
+        },
+        {
+          "fa_name": "رباط سنگ",
+          "us_name": "Robat-e Sang"
+        },
+        {
+          "fa_name": "سلطان آباد",
+          "us_name": "Soltanabad"
+        },
+        {
+          "fa_name": "فریمان",
+          "us_name": "Firuzeh"
+        },
+        {
+          "fa_name": "گناباد",
+          "us_name": "Gonabad"
+        },
+        {
+          "fa_name": "کاریز",
+          "us_name": "Kariz"
+        },
+        {
+          "fa_name": "همت آباد",
+          "us_name": "Hematabad"
+        },
+        {
+          "fa_name": "سلامی",
+          "us_name": "Salami"
+        },
+        {
+          "fa_name": "باجگیران",
+          "us_name": "Bajgeran"
+        },
+        {
+          "fa_name": "بجستان",
+          "us_name": "Bojjan"
+        },
+        {
+          "fa_name": "چناران",
+          "us_name": "Chenaran"
+        },
+        {
+          "fa_name": "درگز",
+          "us_name": "Dargaz"
+        },
+        {
+          "fa_name": "کلات",
+          "us_name": "Kalat"
+        },
+        {
+          "fa_name": "چکنه",
+          "us_name": "Chekneh"
+        },
+        {
+          "fa_name": "نصرآباد",
+          "us_name": "Nasrabadi"
+        },
+        {
+          "fa_name": "بردسکن",
+          "us_name": "Bardaskan"
+        },
+        {
+          "fa_name": "مشهد",
+          "us_name": "Mashhad"
+        },
+        {
+          "fa_name": "کدکن",
+          "us_name": "Kadkan"
+        },
+        {
+          "fa_name": "نقاب",
+          "us_name": "Naqab"
+        },
+        {
+          "fa_name": "قلندرآباد",
+          "us_name": "Ghalandarabad"
+        },
+        {
+          "fa_name": "کاشمر",
+          "us_name": "Kashmar"
+        },
+        {
+          "fa_name": "شاندیز",
+          "us_name": "Shandiz"
+        },
+        {
+          "fa_name": "نشتیفان",
+          "us_name": "Neshtifan"
+        },
+        {
+          "fa_name": "ششتمد",
+          "us_name": "Sheshtamad"
+        },
+        {
+          "fa_name": "شادمهر",
+          "us_name": "Shadmehr"
+        },
+        {
+          "fa_name": "عشق آباد",
+          "us_name": "Eshqabad"
+        },
+        {
+          "fa_name": "چاپشلو",
+          "us_name": "Chapeshlu"
+        },
+        {
+          "fa_name": "رشتخوار",
+          "us_name": "Roshtkhar"
+        },
+        {
+          "fa_name": "قدمگاه",
+          "us_name": "Qadmagha"
+        },
+        {
+          "fa_name": "صالح آباد",
+          "us_name": "Salehabad"
+        },
+        {
+          "fa_name": "داورزن",
+          "us_name": "Davarzan"
+        },
+        {
+          "fa_name": "فرهادگرد",
+          "us_name": "Farhadgord"
+        },
+        {
+          "fa_name": "کاخک",
+          "us_name": "Kakhak"
+        },
+        {
+          "fa_name": "مشهدریزه",
+          "us_name": "Mashhad Rizh"
+        },
+        {
+          "fa_name": "جغتای",
+          "us_name": "Joghtai"
+        },
+        {
+          "fa_name": "مزدآوند",
+          "us_name": "Mazdavand"
+        },
+        {
+          "fa_name": "قوچان",
+          "us_name": "Quchan"
+        },
+        {
+          "fa_name": "یونسی",
+          "us_name": "Yunesi"
+        },
+        {
+          "fa_name": "سنگان",
+          "us_name": "Sangan"
+        },
+        {
+          "fa_name": "نوخندان",
+          "us_name": "Nokhandan"
+        },
+        {
+          "fa_name": "کندر",
+          "us_name": "Kandar"
+        },
+        {
+          "fa_name": "نیشابور",
+          "us_name": "Nishabur"
+        },
+        {
+          "fa_name": "احمدابادصولت",
+          "us_name": "Ahmadabad-e Solt"
+        },
+        {
+          "fa_name": "شهراباد",
+          "us_name": "Shahrabad"
+        },
+        {
+          "fa_name": "رضویه",
+          "us_name": "Razaviyeh"
+        },
+        {
+          "fa_name": "تربت حیدریه",
+          "us_name": "Torbat-e Heydariyeh"
+        },
+        {
+          "fa_name": "باخرز",
+          "us_name": "Bakharz"
+        },
+        {
+          "fa_name": "سفیدسنگ",
+          "us_name": "Sefidsang"
+        },
+        {
+          "fa_name": "بیدخت",
+          "us_name": "Beydokht"
+        },
+        {
+          "fa_name": "تایباد",
+          "us_name": "Taybad"
+        },
+        {
+          "fa_name": "فیروزه",
+          "us_name": "Firouzeh"
+        },
+        {
+          "fa_name": "قاسم آباد",
+          "us_name": "Ghasemabad"
+        },
+        {
+          "fa_name": "سبزوار",
+          "us_name": "Sabzevar"
+        },
+        {
+          "fa_name": "فیض آباد",
+          "us_name": "Feizabad"
+        },
+        {
+          "fa_name": "گلمکان",
+          "us_name": "Golmakan"
+        },
+        {
+          "fa_name": "لطف آباد",
+          "us_name": "Lotfabad"
+        },
+        {
+          "fa_name": "شهرزو",
+          "us_name": "Shahrzoo"
+        },
+        {
+          "fa_name": "خرو",
+          "us_name": "Kharv"
+        },
+        {
+          "fa_name": "تربت جام",
+          "us_name": "Torbat-e Jam"
+        },
+        {
+          "fa_name": "انابد",
+          "us_name": "Anabad"
+        },
+        {
+          "fa_name": "ملک آباد",
+          "us_name": "Malekabad"
+        },
+        {
+          "fa_name": "بایک",
+          "us_name": "Bayek"
+        },
+        {
+          "fa_name": "دولت آباد",
+          "us_name": "Dowlatabad"
+        },
+        {
+          "fa_name": "سرخس",
+          "us_name": "Sarakhs"
+        },
+        {
+          "fa_name": "ریوش",
+          "us_name": "Rivash"
+        },
+        {
+          "fa_name": "طرقبه",
+          "us_name": "Torqabeh"
+        },
+        {
+          "fa_name": "خواف",
+          "us_name": "Khaf"
+        },
+        {
+          "fa_name": "روداب",
+          "us_name": "Rudab"
+        },
+        {
+          "fa_name": "خلیل آباد",
+          "us_name": "Khalilabad"
+        }
+      ]
+    },
+    {
+      "fa_name": "خراسان شمالی",
+      "us_name": "North Khorasan",
+      "cities": [
+        {
+          "fa_name": "چناران شهر",
+          "us_name": "Chenaran Shahr"
+        },
+        {
+          "fa_name": "راز",
+          "us_name": "Raz"
+        },
+        {
+          "fa_name": "پیش قلعه",
+          "us_name": "Pishghaleh"
+        },
+        {
+          "fa_name": "قوشخانه",
+          "us_name": "Qushkhaneh"
+        },
+        {
+          "fa_name": "شوقان",
+          "us_name": "Shoqan"
+        },
+        {
+          "fa_name": "اسفراین",
+          "us_name": "Esfarayen"
+        },
+        {
+          "fa_name": "گرمه",
+          "us_name": "Garmeh"
+        },
+        {
+          "fa_name": "قاضی",
+          "us_name": "Qazi"
+        },
+        {
+          "fa_name": "شیروان",
+          "us_name": "Shirvan"
+        },
+        {
+          "fa_name": "حصارگرمخان",
+          "us_name": "Hasar Garmkhan"
+        },
+        {
+          "fa_name": "آشخانه",
+          "us_name": "Ashkhaneh"
+        },
+        {
+          "fa_name": "تیتکانلو",
+          "us_name": "Titkanlu"
+        },
+        {
+          "fa_name": "جاجرم",
+          "us_name": "Jajarm"
+        },
+        {
+          "fa_name": "بجنورد",
+          "us_name": "Bojnurd"
+        },
+        {
+          "fa_name": "درق",
+          "us_name": "Daraq"
+        },
+        {
+          "fa_name": "آوا",
+          "us_name": "Ava"
+        },
+        {
+          "fa_name": "زیارت",
+          "us_name": "Ziyarat"
+        },
+        {
+          "fa_name": "سنخواست",
+          "us_name": "Sankhvast"
+        },
+        {
+          "fa_name": "صفی آباد",
+          "us_name": "Safiiabad"
+        },
+        {
+          "fa_name": "ایور",
+          "us_name": "Ivor"
+        },
+        {
+          "fa_name": "فاروج",
+          "us_name": "Farooj"
+        },
+        {
+          "fa_name": "لوجلی",
+          "us_name": "Loojli"
+        }
+      ]
+    },
+    {
+      "fa_name": "خوزستان",
+      "us_name": "Khuzestan",
+      "cities": [
+        {
+          "fa_name": "هفتگل",
+          "us_name": "Haftgel"
+        },
+        {
+          "fa_name": "بیدروبه",
+          "us_name": "Bidroubeh"
+        },
+        {
+          "fa_name": "شاوور",
+          "us_name": "Shavur"
+        },
+        {
+          "fa_name": "حمزه",
+          "us_name": "Hamzeh"
+        },
+        {
+          "fa_name": "گتوند",
+          "us_name": "Gotvand"
+        },
+        {
+          "fa_name": "شرافت",
+          "us_name": "Sharafat"
+        },
+        {
+          "fa_name": "منصوریه",
+          "us_name": "Mansouriye"
+        },
+        {
+          "fa_name": "زهره",
+          "us_name": "Zahra"
+        },
+        {
+          "fa_name": "رامهرمز",
+          "us_name": "Ramhormoz"
+        },
+        {
+          "fa_name": "بندرامام خمینی",
+          "us_name": "Bandar-e Emam Khomeini"
+        },
+        {
+          "fa_name": "کوت عبداله",
+          "us_name": "Kut Abdollah"
+        },
+        {
+          "fa_name": "میداود",
+          "us_name": "Meydavood"
+        },
+        {
+          "fa_name": "چغامیش",
+          "us_name": "Choghamish"
+        },
+        {
+          "fa_name": "ملاثانی",
+          "us_name": "Mollasani"
+        },
+        {
+          "fa_name": "چم گلک",
+          "us_name": "Cham Golak"
+        },
+        {
+          "fa_name": "حر",
+          "us_name": "Har"
+        },
+        {
+          "fa_name": "شمس آباد",
+          "us_name": "Shamsabad"
+        },
+        {
+          "fa_name": "آبژدان",
+          "us_name": "Abadan"
+        },
+        {
+          "fa_name": "چویبده",
+          "us_name": "Chuyebdeh"
+        },
+        {
+          "fa_name": "مسجدسلیمان",
+          "us_name": "Masjed Soleyman"
+        },
+        {
+          "fa_name": "مقاومت",
+          "us_name": "Moqavemat"
+        },
+        {
+          "fa_name": "ترکالکی",
+          "us_name": "Torkalaki"
+        },
+        {
+          "fa_name": "دارخوین",
+          "us_name": "Dareh Khuin"
+        },
+        {
+          "fa_name": "سردشت",
+          "us_name": "Sardasht"
+        },
+        {
+          "fa_name": "لالی",
+          "us_name": "Lali"
+        },
+        {
+          "fa_name": "کوت سیدنعیم",
+          "us_name": "Kut-e Seyyed Naeem"
+        },
+        {
+          "fa_name": "حمیدیه",
+          "us_name": "Hamidiyeh"
+        },
+        {
+          "fa_name": "دهدز",
+          "us_name": "Dehdasht"
+        },
+        {
+          "fa_name": "قلعه تل",
+          "us_name": "Ghaleh Tall"
+        },
+        {
+          "fa_name": "میانرود",
+          "us_name": "Mian Rood"
+        },
+        {
+          "fa_name": "رفیع",
+          "us_name": "Rafi"
+        },
+        {
+          "fa_name": "اندیمشک",
+          "us_name": "Andimeshk"
+        },
+        {
+          "fa_name": "الوان",
+          "us_name": "Alvan"
+        },
+        {
+          "fa_name": "سالند",
+          "us_name": "Saland"
+        },
+        {
+          "fa_name": "صالح شهر",
+          "us_name": "Saleh Shahr"
+        },
+        {
+          "fa_name": "اروندکنار",
+          "us_name": "Arvand Kenar"
+        },
+        {
+          "fa_name": "سرداران",
+          "us_name": "Sardaran"
+        },
+        {
+          "fa_name": "تشان",
+          "us_name": "Tashan"
+        },
+        {
+          "fa_name": "رامشیر",
+          "us_name": "Ramshir"
+        },
+        {
+          "fa_name": "شادگان",
+          "us_name": "Shadegan"
+        },
+        {
+          "fa_name": "بندرماهشهر",
+          "us_name": "Bandar-e Mahshahr"
+        },
+        {
+          "fa_name": "جایزان",
+          "us_name": "Jayezaan"
+        },
+        {
+          "fa_name": "بستان",
+          "us_name": "Bastan"
+        },
+        {
+          "fa_name": "ویس",
+          "us_name": "Veis"
+        },
+        {
+          "fa_name": "اهواز",
+          "us_name": "Ahvaz"
+        },
+        {
+          "fa_name": "فتح المبین",
+          "us_name": "Fath al-Mobin"
+        },
+        {
+          "fa_name": "شهر امام",
+          "us_name": "Shahr-e Imam"
+        },
+        {
+          "fa_name": "قلعه خواجه",
+          "us_name": "Ghaleh Khajeh"
+        },
+        {
+          "fa_name": "حسینیه",
+          "us_name": "Hoseyniye"
+        },
+        {
+          "fa_name": "گلگیر",
+          "us_name": "Golgir"
+        },
+        {
+          "fa_name": "مینوشهر",
+          "us_name": "Minoo Shahr"
+        },
+        {
+          "fa_name": "سماله",
+          "us_name": "Samaleh"
+        },
+        {
+          "fa_name": "شوشتر",
+          "us_name": "Shooshtar"
+        },
+        {
+          "fa_name": "بهبهان",
+          "us_name": "Behbahan"
+        },
+        {
+          "fa_name": "هندیجان",
+          "us_name": "Hendijan"
+        },
+        {
+          "fa_name": "ابوحمیظه",
+          "us_name": "Abu Hamedeh"
+        },
+        {
+          "fa_name": "آغاجاری",
+          "us_name": "Aghajari"
+        },
+        {
+          "fa_name": "ایذه",
+          "us_name": "Izeh"
+        },
+        {
+          "fa_name": "صیدون",
+          "us_name": "Saydoon"
+        },
+        {
+          "fa_name": "سیاه منصور",
+          "us_name": "Siah Mansur"
+        },
+        {
+          "fa_name": "هویزه",
+          "us_name": "Howzeh"
+        },
+        {
+          "fa_name": "آزادی",
+          "us_name": "Azadi"
+        },
+        {
+          "fa_name": "شوش",
+          "us_name": "Shush"
+        },
+        {
+          "fa_name": "دزفول",
+          "us_name": "Dezful"
+        },
+        {
+          "fa_name": "جنت مکان",
+          "us_name": "Jannat Makan"
+        },
+        {
+          "fa_name": "آبادان",
+          "us_name": "Abadan"
+        },
+        {
+          "fa_name": "گوریه",
+          "us_name": "Goorieh"
+        },
+        {
+          "fa_name": "خرمشهر",
+          "us_name": "Khorramshahr"
+        },
+        {
+          "fa_name": "مشراگه",
+          "us_name": "Mashregheh"
+        },
+        {
+          "fa_name": "خنافره",
+          "us_name": "Khonafareh"
+        },
+        {
+          "fa_name": "چمران",
+          "us_name": "Chamran"
+        },
+        {
+          "fa_name": "امیدیه",
+          "us_name": "Omidiyeh"
+        },
+        {
+          "fa_name": "سوسنگرد",
+          "us_name": "Sosangerd"
+        },
+        {
+          "fa_name": "شیبان",
+          "us_name": "Shiban"
+        },
+        {
+          "fa_name": "الهایی",
+          "us_name": "Alhayi"
+        },
+        {
+          "fa_name": "باغ ملک",
+          "us_name": "Bagh-e Malek"
+        },
+        {
+          "fa_name": "صفی آباد",
+          "us_name": "Safiabad"
+        }
+      ]
+    },
+    {
+      "fa_name": "زنجان",
+      "us_name": "Zanjan",
+      "cities": [
+        {
+          "fa_name": "سجاس",
+          "us_name": "Sijas"
+        },
+        {
+          "fa_name": "زرین رود",
+          "us_name": "Zarrin Rud"
+        },
+        {
+          "fa_name": "آب بر",
+          "us_name": "Ab Bar"
+        },
+        {
+          "fa_name": "ارمغانخانه",
+          "us_name": "Ermaghankeh"
+        },
+        {
+          "fa_name": "کرسف",
+          "us_name": "Karsaf"
+        },
+        {
+          "fa_name": "هیدج",
+          "us_name": "Heydaj"
+        },
+        {
+          "fa_name": "سلطانیه",
+          "us_name": "Soltaniyeh"
+        },
+        {
+          "fa_name": "خرمدره",
+          "us_name": "Khorramdarreh"
+        },
+        {
+          "fa_name": "نیک پی",
+          "us_name": "Nik Pey"
+        },
+        {
+          "fa_name": "قیدار",
+          "us_name": "Qeydar"
+        },
+        {
+          "fa_name": "ابهر",
+          "us_name": "Abhar"
+        },
+        {
+          "fa_name": "دندی",
+          "us_name": "Dandi"
+        },
+        {
+          "fa_name": "حلب",
+          "us_name": "Halab"
+        },
+        {
+          "fa_name": "نوربهار",
+          "us_name": "Nur Bahaar"
+        },
+        {
+          "fa_name": "گرماب",
+          "us_name": "Garmab"
+        },
+        {
+          "fa_name": "چورزق",
+          "us_name": "Churzagh"
+        },
+        {
+          "fa_name": "زنجان",
+          "us_name": "Zanjan"
+        },
+        {
+          "fa_name": "سهرورد",
+          "us_name": "Sohravard"
+        },
+        {
+          "fa_name": "صایین قلعه",
+          "us_name": "Sain Qaleh"
+        },
+        {
+          "fa_name": "ماه نشان",
+          "us_name": "Mah Neshan"
+        },
+        {
+          "fa_name": "زرین آباد",
+          "us_name": "Zarrinabad"
+        }
+      ]
+    },
+    {
+      "fa_name": "سمنان",
+      "us_name": "Semnan",
+      "cities": [
+        {
+          "fa_name": "ایوانکی",
+          "us_name": "Ivanki"
+        },
+        {
+          "fa_name": "مجن",
+          "us_name": "Mojen"
+        },
+        {
+          "fa_name": "دامغان",
+          "us_name": "Damghan"
+        },
+        {
+          "fa_name": "سرخه",
+          "us_name": "Sorkheh"
+        },
+        {
+          "fa_name": "مهدی شهر",
+          "us_name": "Mahdi Shahr"
+        },
+        {
+          "fa_name": "شاهرود",
+          "us_name": "Shahrud"
+        },
+        {
+          "fa_name": "سمنان",
+          "us_name": "Semnan"
+        },
+        {
+          "fa_name": "کهن آباد",
+          "us_name": "Kohanabad"
+        },
+        {
+          "fa_name": "گرمسار",
+          "us_name": "Garmsar"
+        },
+        {
+          "fa_name": "کلاته خیج",
+          "us_name": "Kalateh Khij"
+        },
+        {
+          "fa_name": "دیباج",
+          "us_name": "Dibaj"
+        },
+        {
+          "fa_name": "درجزین",
+          "us_name": "Darjazin"
+        },
+        {
+          "fa_name": "رودیان",
+          "us_name": "Rudian"
+        },
+        {
+          "fa_name": "بسطام",
+          "us_name": "Bastam"
+        },
+        {
+          "fa_name": "امیریه",
+          "us_name": "Amiriye"
+        },
+        {
+          "fa_name": "میامی",
+          "us_name": "Miamee"
+        },
+        {
+          "fa_name": "شهمیرزاد",
+          "us_name": "Shahmirzad"
+        },
+        {
+          "fa_name": "بیارجمند",
+          "us_name": "Biarejamand"
+        },
+        {
+          "fa_name": "کلاته",
+          "us_name": "Kalateh"
+        },
+        {
+          "fa_name": "آرادان",
+          "us_name": "Aradan"
+        }
+      ]
+    },
+    {
+      "fa_name": "سیستان و بلوچستان",
+      "us_name": "Sistan and Baluchestan",
+      "cities": [
+        {
+          "fa_name": "محمدی",
+          "us_name": "Mohammadi"
+        },
+        {
+          "fa_name": "شهرک علی اکبر",
+          "us_name": "Shahrak Ali Akbar"
+        },
+        {
+          "fa_name": "بنجار",
+          "us_name": "Benjar"
+        },
+        {
+          "fa_name": "گلمورتی",
+          "us_name": "Golmorti"
+        },
+        {
+          "fa_name": "نگور",
+          "us_name": "Negour"
+        },
+        {
+          "fa_name": "راسک",
+          "us_name": "Rask"
+        },
+        {
+          "fa_name": "بنت",
+          "us_name": "Bent"
+        },
+        {
+          "fa_name": "قصرقند",
+          "us_name": "Qasr-e Qand"
+        },
+        {
+          "fa_name": "جالق",
+          "us_name": "Jalq"
+        },
+        {
+          "fa_name": "هیدوچ",
+          "us_name": "Hidooj"
+        },
+        {
+          "fa_name": "نوک آباد",
+          "us_name": "Nookabad"
+        },
+        {
+          "fa_name": "زهک",
+          "us_name": "Zahak"
+        },
+        {
+          "fa_name": "بمپور",
+          "us_name": "Bampur"
+        },
+        {
+          "fa_name": "پیشین",
+          "us_name": "Pishin"
+        },
+        {
+          "fa_name": "گشت",
+          "us_name": "Gasht"
+        },
+        {
+          "fa_name": "محمدآباد",
+          "us_name": "Mohammadabad"
+        },
+        {
+          "fa_name": "زاهدان",
+          "us_name": "Zahedan"
+        },
+        {
+          "fa_name": "زابلی",
+          "us_name": "Zabol-e Gharbi"
+        },
+        {
+          "fa_name": "چاه بهار",
+          "us_name": "Chah Bahar"
+        },
+        {
+          "fa_name": "زرآباد",
+          "us_name": "Zarabad"
+        },
+        {
+          "fa_name": "بزمان",
+          "us_name": "Bozman"
+        },
+        {
+          "fa_name": "اسپکه",
+          "us_name": "Espakeh"
+        },
+        {
+          "fa_name": "فنوج",
+          "us_name": "Fanouj"
+        },
+        {
+          "fa_name": "سراوان",
+          "us_name": "Saravan"
+        },
+        {
+          "fa_name": "ادیمی",
+          "us_name": "Adimi"
+        },
+        {
+          "fa_name": "زابل",
+          "us_name": "Zabol"
+        },
+        {
+          "fa_name": "دوست محمد",
+          "us_name": "Dost Mohammad"
+        },
+        {
+          "fa_name": "ایرانشهر",
+          "us_name": "Iranshahr"
+        },
+        {
+          "fa_name": "سرباز",
+          "us_name": "Sarbaz"
+        },
+        {
+          "fa_name": "سیرکان",
+          "us_name": "Sirkon"
+        },
+        {
+          "fa_name": "میرجاوه",
+          "us_name": "Mirjaveh"
+        },
+        {
+          "fa_name": "نصرت آباد",
+          "us_name": "Nasrat Abad"
+        },
+        {
+          "fa_name": "سوران",
+          "us_name": "Suran"
+        },
+        {
+          "fa_name": "خاش",
+          "us_name": "Khash"
+        },
+        {
+          "fa_name": "کنارک",
+          "us_name": "Konarak"
+        },
+        {
+          "fa_name": "محمدان",
+          "us_name": "Mohammadan"
+        },
+        {
+          "fa_name": "نیک شهر",
+          "us_name": "Nikshahr"
+        }
+      ]
+    },
+    {
+      "fa_name": "فارس",
+      "us_name": "Fars",
+      "cities": [
+        {
+          "fa_name": "کازرون",
+          "us_name": "Kazerun"
+        },
+        {
+          "fa_name": "کارزین (فتح آباد)",
+          "us_name": "Karzin (Fathabad)"
+        },
+        {
+          "fa_name": "فدامی",
+          "us_name": "Fadami"
+        },
+        {
+          "fa_name": "خومه زار",
+          "us_name": "Khomehzar"
+        },
+        {
+          "fa_name": "سلطان شهر",
+          "us_name": "Soltan Shahr"
+        },
+        {
+          "fa_name": "فیروزآباد",
+          "us_name": "Firuzabad"
+        },
+        {
+          "fa_name": "دبیران",
+          "us_name": "Dabiran"
+        },
+        {
+          "fa_name": "باب انار",
+          "us_name": "Bab Anar"
+        },
+        {
+          "fa_name": "رامجرد",
+          "us_name": "Ramjerd"
+        },
+        {
+          "fa_name": "سروستان",
+          "us_name": "Sarvestan"
+        },
+        {
+          "fa_name": "قره بلاغ",
+          "us_name": "Qarah Bolagh"
+        },
+        {
+          "fa_name": "ارسنجان",
+          "us_name": "Ersanjan"
+        },
+        {
+          "fa_name": "دژکرد",
+          "us_name": "Dezhkord"
+        },
+        {
+          "fa_name": "بیرم",
+          "us_name": "Birim"
+        },
+        {
+          "fa_name": "دهرم",
+          "us_name": "Dehram"
+        },
+        {
+          "fa_name": "شیراز",
+          "us_name": "Shiraz"
+        },
+        {
+          "fa_name": "ایزدخواست",
+          "us_name": "Izadkhvast"
+        },
+        {
+          "fa_name": "علامرودشت",
+          "us_name": "Alamarvdasht"
+        },
+        {
+          "fa_name": "اوز",
+          "us_name": "Owz"
+        },
+        {
+          "fa_name": "وراوی",
+          "us_name": "Voravi"
+        },
+        {
+          "fa_name": "بیضا",
+          "us_name": "Beyza"
+        },
+        {
+          "fa_name": "نی ریز",
+          "us_name": "Neyriz"
+        },
+        {
+          "fa_name": "کنارتخته",
+          "us_name": "Konartakhteh"
+        },
+        {
+          "fa_name": "امام شهر",
+          "us_name": "Emam Shahr"
+        },
+        {
+          "fa_name": "جهرم",
+          "us_name": "Jahrom"
+        },
+        {
+          "fa_name": "بابامنیر",
+          "us_name": "Baba Monir"
+        },
+        {
+          "fa_name": "گراش",
+          "us_name": "Garash"
+        },
+        {
+          "fa_name": "فسا",
+          "us_name": "Fasa"
+        },
+        {
+          "fa_name": "شهرپیر",
+          "us_name": "Shahr-e Pir"
+        },
+        {
+          "fa_name": "حسن اباد",
+          "us_name": "Hasanabad"
+        },
+        {
+          "fa_name": "کامفیروز",
+          "us_name": "Kamfiruz"
+        },
+        {
+          "fa_name": "خنج",
+          "us_name": "Khang"
+        },
+        {
+          "fa_name": "خانه زنیان",
+          "us_name": "Khaneye Zaniyan"
+        },
+        {
+          "fa_name": "استهبان",
+          "us_name": "Estahban"
+        },
+        {
+          "fa_name": "بوانات",
+          "us_name": "Bavanat"
+        },
+        {
+          "fa_name": "لطیفی",
+          "us_name": "Latifi"
+        },
+        {
+          "fa_name": "فراشبند",
+          "us_name": "Farashband"
+        },
+        {
+          "fa_name": "زرقان",
+          "us_name": "Zarqan"
+        },
+        {
+          "fa_name": "صغاد",
+          "us_name": "Saghad"
+        },
+        {
+          "fa_name": "اشکنان",
+          "us_name": "Ashkanan"
+        },
+        {
+          "fa_name": "قایمیه",
+          "us_name": "Qaemiyeh"
+        },
+        {
+          "fa_name": "گله دار",
+          "us_name": "Golhedar"
+        },
+        {
+          "fa_name": "دوبرجی",
+          "us_name": "Dowbarji"
+        },
+        {
+          "fa_name": "آباده طشک",
+          "us_name": "Abadeh Tashk"
+        },
+        {
+          "fa_name": "خرامه",
+          "us_name": "Khorramah"
+        },
+        {
+          "fa_name": "میمند",
+          "us_name": "Mimand"
+        },
+        {
+          "fa_name": "افزر",
+          "us_name": "Afzar"
+        },
+        {
+          "fa_name": "دوزه",
+          "us_name": "Douze"
+        },
+        {
+          "fa_name": "سیدان",
+          "us_name": "Seydan"
+        },
+        {
+          "fa_name": "کوپن",
+          "us_name": "Koopan"
+        },
+        {
+          "fa_name": "زاهدشهر",
+          "us_name": "Zahedshahr"
+        },
+        {
+          "fa_name": "قادراباد",
+          "us_name": "Qaderabad"
+        },
+        {
+          "fa_name": "سده",
+          "us_name": "Saddeh"
+        },
+        {
+          "fa_name": "بنارویه",
+          "us_name": "Benaroya"
+        },
+        {
+          "fa_name": "سعادت شهر",
+          "us_name": "Saadat Shahr"
+        },
+        {
+          "fa_name": "شهرصدرا",
+          "us_name": "Shahr-e Sadra"
+        },
+        {
+          "fa_name": "سورمق",
+          "us_name": "Surmaq"
+        },
+        {
+          "fa_name": "حسامی",
+          "us_name": "Hasami"
+        },
+        {
+          "fa_name": "جویم",
+          "us_name": "Jooyom"
+        },
+        {
+          "fa_name": "خوزی",
+          "us_name": "Khoozi"
+        },
+        {
+          "fa_name": "اردکان",
+          "us_name": "Ardakan"
+        },
+        {
+          "fa_name": "قطرویه",
+          "us_name": "Qatrvieh"
+        },
+        {
+          "fa_name": "نودان",
+          "us_name": "Nodan"
+        },
+        {
+          "fa_name": "مبارک آباددیز",
+          "us_name": "Mobarakeh-ye Diz"
+        },
+        {
+          "fa_name": "داراب",
+          "us_name": "Darab"
+        },
+        {
+          "fa_name": "نورآباد",
+          "us_name": "Nurabad"
+        },
+        {
+          "fa_name": "کوار",
+          "us_name": "Kovar"
+        },
+        {
+          "fa_name": "نوبندگان",
+          "us_name": "Nobandegan"
+        },
+        {
+          "fa_name": "حاجی آباد",
+          "us_name": "Hajiabad"
+        },
+        {
+          "fa_name": "خاوران",
+          "us_name": "Khavaran"
+        },
+        {
+          "fa_name": "مرودشت",
+          "us_name": "Marvdasht"
+        },
+        {
+          "fa_name": "کوهنجان",
+          "us_name": "Kuhangan"
+        },
+        {
+          "fa_name": "ششده",
+          "us_name": "Sheshdeh"
+        },
+        {
+          "fa_name": "مزایجان",
+          "us_name": "Mazayjan"
+        },
+        {
+          "fa_name": "ایج",
+          "us_name": "Eij"
+        },
+        {
+          "fa_name": "خور",
+          "us_name": "Khur"
+        },
+        {
+          "fa_name": "نوجین",
+          "us_name": "Nojin"
+        },
+        {
+          "fa_name": "لپویی",
+          "us_name": "Lapoui"
+        },
+        {
+          "fa_name": "بهمن",
+          "us_name": "Bahman"
+        },
+        {
+          "fa_name": "اهل",
+          "us_name": "Ahl"
+        },
+        {
+          "fa_name": "خشت",
+          "us_name": "Khesht"
+        },
+        {
+          "fa_name": "مهر",
+          "us_name": "Mehr"
+        },
+        {
+          "fa_name": "جنت شهر",
+          "us_name": "Jannat Shahr"
+        },
+        {
+          "fa_name": "مشکان",
+          "us_name": "Moshkan"
+        },
+        {
+          "fa_name": "بالاده",
+          "us_name": "Baladeh"
+        },
+        {
+          "fa_name": "قیر",
+          "us_name": "Qir"
+        },
+        {
+          "fa_name": "قطب آباد",
+          "us_name": "Qotbabad"
+        },
+        {
+          "fa_name": "خانیمن",
+          "us_name": "Khaniman"
+        },
+        {
+          "fa_name": "مصیری",
+          "us_name": "Masiri"
+        },
+        {
+          "fa_name": "میانشهر",
+          "us_name": "Miyanshahr"
+        },
+        {
+          "fa_name": "صفاشهر",
+          "us_name": "Safashahr"
+        },
+        {
+          "fa_name": "اقلید",
+          "us_name": "Eqled"
+        },
+        {
+          "fa_name": "عمادده",
+          "us_name": "Emadeddin"
+        },
+        {
+          "fa_name": "مادرسلیمان",
+          "us_name": "Madersoleiman"
+        },
+        {
+          "fa_name": "داریان",
+          "us_name": "Darian"
+        },
+        {
+          "fa_name": "رونیز",
+          "us_name": "Roneez"
+        },
+        {
+          "fa_name": "کره ای",
+          "us_name": "Koreye"
+        },
+        {
+          "fa_name": "لار",
+          "us_name": "Lar"
+        },
+        {
+          "fa_name": "اسیر",
+          "us_name": "Asir"
+        },
+        {
+          "fa_name": "هماشهر",
+          "us_name": "Hamashahr"
+        },
+        {
+          "fa_name": "آباده",
+          "us_name": "Abadeh"
+        },
+        {
+          "fa_name": "لامرد",
+          "us_name": "Lamerd"
+        }
+      ]
+    },
+    {
+      "fa_name": "قزوین",
+      "us_name": "Qazvin",
+      "cities": [
+        {
+          "fa_name": "سگزآباد",
+          "us_name": "Sagzabad"
+        },
+        {
+          "fa_name": "بیدستان",
+          "us_name": "Bidestan"
+        },
+        {
+          "fa_name": "کوهین",
+          "us_name": "Kuhin"
+        },
+        {
+          "fa_name": "رازمیان",
+          "us_name": "Razmian"
+        },
+        {
+          "fa_name": "خرمدشت",
+          "us_name": "Khoramdasht"
+        },
+        {
+          "fa_name": "آبگرم",
+          "us_name": "Abgarm"
+        },
+        {
+          "fa_name": "شال",
+          "us_name": "Shal"
+        },
+        {
+          "fa_name": "شریفیه",
+          "us_name": "Sharifabad"
+        },
+        {
+          "fa_name": "اقبالیه",
+          "us_name": "Eqbaliyeh"
+        },
+        {
+          "fa_name": "نرجه",
+          "us_name": "Narjeh"
+        },
+        {
+          "fa_name": "ارداق",
+          "us_name": "Ardagh"
+        },
+        {
+          "fa_name": "الوند",
+          "us_name": "Alvand"
+        },
+        {
+          "fa_name": "خاکعلی",
+          "us_name": "Khakeali"
+        },
+        {
+          "fa_name": "سیردان",
+          "us_name": "Sirdan"
+        },
+        {
+          "fa_name": "ضیاآباد",
+          "us_name": "Ziaabad"
+        },
+        {
+          "fa_name": "بویین زهرا",
+          "us_name": "Booin Zahra"
+        },
+        {
+          "fa_name": "محمدیه",
+          "us_name": "Mohammadiyeh"
+        },
+        {
+          "fa_name": "محمودآبادنمونه",
+          "us_name": "Mahmoudabad-e Namune"
+        },
+        {
+          "fa_name": "معلم کلایه",
+          "us_name": "Moalem Kalayeh"
+        },
+        {
+          "fa_name": "اسفرورین",
+          "us_name": "Esfarvarin"
+        },
+        {
+          "fa_name": "آوج",
+          "us_name": "Avaaj"
+        },
+        {
+          "fa_name": "دانسفهان",
+          "us_name": "Dansfahan"
+        },
+        {
+          "fa_name": "آبیک",
+          "us_name": "Abyek"
+        },
+        {
+          "fa_name": "قزوین",
+          "us_name": "Qazvin"
+        },
+        {
+          "fa_name": "تاکستان",
+          "us_name": "Takestan"
+        }
+      ]
+    },
+    {
+      "fa_name": "قم",
+      "us_name": "Qom",
+      "cities": [
+        {
+          "fa_name": "کهک",
+          "us_name": "Kahak"
+        },
+        {
+          "fa_name": "قم",
+          "us_name": "Qom"
+        },
+        {
+          "fa_name": "سلفچگان",
+          "us_name": "Salafchegan"
+        },
+        {
+          "fa_name": "جعفریه",
+          "us_name": "Jaafariyeh"
+        },
+        {
+          "fa_name": "قنوات",
+          "us_name": "Ghanoat"
+        },
+        {
+          "fa_name": "دستجرد",
+          "us_name": "Dastjerd"
+        }
+      ]
+    },
+    {
+      "fa_name": "کردستان",
+      "us_name": "Kurdistan",
+      "cities": [
+        {
+          "fa_name": "قروه",
+          "us_name": "Qorveh"
+        },
+        {
+          "fa_name": "توپ آغاج",
+          "us_name": "Tup Aghaj"
+        },
+        {
+          "fa_name": "سروآباد",
+          "us_name": "Sarvabad"
+        },
+        {
+          "fa_name": "بویین سفلی",
+          "us_name": "Boyein Zoghal"
+        },
+        {
+          "fa_name": "زرینه",
+          "us_name": "Zarineh"
+        },
+        {
+          "fa_name": "دلبران",
+          "us_name": "Dalbaran"
+        },
+        {
+          "fa_name": "سنندج",
+          "us_name": "Sanandaj"
+        },
+        {
+          "fa_name": "یاسوکند",
+          "us_name": "Yasouj"
+        },
+        {
+          "fa_name": "موچش",
+          "us_name": "Mochesh"
+        },
+        {
+          "fa_name": "بانه",
+          "us_name": "Baneh"
+        },
+        {
+          "fa_name": "مریوان",
+          "us_name": "Marivan"
+        },
+        {
+          "fa_name": "سریش آباد",
+          "us_name": "Serishabad"
+        },
+        {
+          "fa_name": "صاحب",
+          "us_name": "Sahib"
+        },
+        {
+          "fa_name": "دهگلان",
+          "us_name": "Dehgolan"
+        },
+        {
+          "fa_name": "بابارشانی",
+          "us_name": "Babarashani"
+        },
+        {
+          "fa_name": "دیواندره",
+          "us_name": "Divandareh"
+        },
+        {
+          "fa_name": "برده رشه",
+          "us_name": "Bardeh Rasheh"
+        },
+        {
+          "fa_name": "شویشه",
+          "us_name": "Showysha"
+        },
+        {
+          "fa_name": "بیجار",
+          "us_name": "Bijar"
+        },
+        {
+          "fa_name": "اورامان تخت",
+          "us_name": "Oraman Takht"
+        },
+        {
+          "fa_name": "کانی سور",
+          "us_name": "Kani Sur"
+        },
+        {
+          "fa_name": "کانی دینار",
+          "us_name": "Kani Dinar"
+        },
+        {
+          "fa_name": "دزج",
+          "us_name": "Dezej"
+        },
+        {
+          "fa_name": "سقز",
+          "us_name": "Saqqez"
+        },
+        {
+          "fa_name": "بلبان آباد",
+          "us_name": "Balabanabad"
+        },
+        {
+          "fa_name": "پیرتاج",
+          "us_name": "Pir Taj"
+        },
+        {
+          "fa_name": "کامیاران",
+          "us_name": "Kamyaran"
+        },
+        {
+          "fa_name": "آرمرده",
+          "us_name": "Armed"
+        },
+        {
+          "fa_name": "چناره",
+          "us_name": "Chanareh"
+        }
+      ]
+    },
+    {
+      "fa_name": "کرمان",
+      "us_name": "Kerman",
+      "cities": [
+        {
+          "fa_name": "کهنوج",
+          "us_name": "Kahnuj"
+        },
+        {
+          "fa_name": "بلوک",
+          "us_name": "Baluch"
+        },
+        {
+          "fa_name": "پاریز",
+          "us_name": "Pariz"
+        },
+        {
+          "fa_name": "گنبکی",
+          "us_name": "Gonbaki"
+        },
+        {
+          "fa_name": "زنگی آباد",
+          "us_name": "Zangiabad"
+        },
+        {
+          "fa_name": "بم",
+          "us_name": "Bam"
+        },
+        {
+          "fa_name": "خانوک",
+          "us_name": "Khanook"
+        },
+        {
+          "fa_name": "کیانشهر",
+          "us_name": "Kianshahr"
+        },
+        {
+          "fa_name": "جوپار",
+          "us_name": "Jupar"
+        },
+        {
+          "fa_name": "عنبرآباد",
+          "us_name": "Amberabad"
+        },
+        {
+          "fa_name": "جوزم",
+          "us_name": "Jozam"
+        },
+        {
+          "fa_name": "نظام شهر",
+          "us_name": "Nezamshahr"
+        },
+        {
+          "fa_name": "لاله زار",
+          "us_name": "Lalehzar"
+        },
+        {
+          "fa_name": "کشکوییه",
+          "us_name": "Keshkuyeh"
+        },
+        {
+          "fa_name": "زیدآباد",
+          "us_name": "Zeydabad"
+        },
+        {
+          "fa_name": "هنزا",
+          "us_name": "Hanza"
+        },
+        {
+          "fa_name": "چترود",
+          "us_name": "Chatrud"
+        },
+        {
+          "fa_name": "جبالبارز",
+          "us_name": "Jebalbarez"
+        },
+        {
+          "fa_name": "سیرجان",
+          "us_name": "Sirjan"
+        },
+        {
+          "fa_name": "رودبار",
+          "us_name": "Rudbar"
+        },
+        {
+          "fa_name": "کرمان",
+          "us_name": "Kerman"
+        },
+        {
+          "fa_name": "بافت",
+          "us_name": "Bafq"
+        },
+        {
+          "fa_name": "صفاییه",
+          "us_name": "Safaiyeh"
+        },
+        {
+          "fa_name": "منوجان",
+          "us_name": "Manoojan"
+        },
+        {
+          "fa_name": "اندوهجرد",
+          "us_name": "Andouhjerd"
+        },
+        {
+          "fa_name": "هجدک",
+          "us_name": "Hajdak"
+        },
+        {
+          "fa_name": "خورسند",
+          "us_name": "Khorsand"
+        },
+        {
+          "fa_name": "امین شهر",
+          "us_name": "Aminshahr"
+        },
+        {
+          "fa_name": "بردسیر",
+          "us_name": "Bardsir"
+        },
+        {
+          "fa_name": "رفسنجان",
+          "us_name": "Rafsanjan"
+        },
+        {
+          "fa_name": "هماشهر",
+          "us_name": "Hamashahr"
+        },
+        {
+          "fa_name": "محمدآباد",
+          "us_name": "Mohammadabad"
+        },
+        {
+          "fa_name": "اختیارآباد",
+          "us_name": "Ehtiyarabad"
+        },
+        {
+          "fa_name": "بروات",
+          "us_name": "Borouat"
+        },
+        {
+          "fa_name": "ریحان",
+          "us_name": "Reyhan"
+        },
+        {
+          "fa_name": "کوهبنان",
+          "us_name": "Koohbanan"
+        },
+        {
+          "fa_name": "ماهان",
+          "us_name": "Mahan"
+        },
+        {
+          "fa_name": "دوساری",
+          "us_name": "Dosari"
+        },
+        {
+          "fa_name": "دهج",
+          "us_name": "Dehaj"
+        },
+        {
+          "fa_name": "فاریاب",
+          "us_name": "Faryab"
+        },
+        {
+          "fa_name": "گلزار",
+          "us_name": "Golzar"
+        },
+        {
+          "fa_name": "بهرمان",
+          "us_name": "Behrman"
+        },
+        {
+          "fa_name": "بلورد",
+          "us_name": "Balvard"
+        },
+        {
+          "fa_name": "فهرج",
+          "us_name": "Fahraj"
+        },
+        {
+          "fa_name": "کاظم آباد",
+          "us_name": "Kazemabad"
+        },
+        {
+          "fa_name": "جیرفت",
+          "us_name": "Jiroft"
+        },
+        {
+          "fa_name": "نجف شهر",
+          "us_name": "Najafabad"
+        },
+        {
+          "fa_name": "قلعه گنج",
+          "us_name": "Ghalehganj"
+        },
+        {
+          "fa_name": "باغین",
+          "us_name": "Baghin"
+        },
+        {
+          "fa_name": "بزنجان",
+          "us_name": "Bazanjan"
+        },
+        {
+          "fa_name": "زرند",
+          "us_name": "Zarand"
+        },
+        {
+          "fa_name": "نودژ",
+          "us_name": "Nodezh"
+        },
+        {
+          "fa_name": "گلباف",
+          "us_name": "Galbaf"
+        },
+        {
+          "fa_name": "راور",
+          "us_name": "Ravar"
+        },
+        {
+          "fa_name": "خاتون اباد",
+          "us_name": "Khatunabad"
+        },
+        {
+          "fa_name": "نرماشیر",
+          "us_name": "Narmashir"
+        },
+        {
+          "fa_name": "دشتکار",
+          "us_name": "Dashtkar"
+        },
+        {
+          "fa_name": "مس سرچشمه",
+          "us_name": "Mes Sarcheshmeh"
+        },
+        {
+          "fa_name": "خواجو شهر",
+          "us_name": "Khajoo Shahr"
+        },
+        {
+          "fa_name": "رابر",
+          "us_name": "Raber"
+        },
+        {
+          "fa_name": "راین",
+          "us_name": "Rayen"
+        },
+        {
+          "fa_name": "درب بهشت",
+          "us_name": "Darb Behesht"
+        },
+        {
+          "fa_name": "یزدان شهر",
+          "us_name": "Yazdan Shahr"
+        },
+        {
+          "fa_name": "زهکلوت",
+          "us_name": "Zehkoloot"
+        },
+        {
+          "fa_name": "محی آباد",
+          "us_name": "Mahiabad"
+        },
+        {
+          "fa_name": "مردهک",
+          "us_name": "Mordehak"
+        },
+        {
+          "fa_name": "شهداد",
+          "us_name": "Shahdad"
+        },
+        {
+          "fa_name": "ارزوییه",
+          "us_name": "Arzuiyeh"
+        },
+        {
+          "fa_name": "نگار",
+          "us_name": "Negar"
+        },
+        {
+          "fa_name": "شهربابک",
+          "us_name": "Shahr-e Babak"
+        },
+        {
+          "fa_name": "انار",
+          "us_name": "Anar"
+        }
+      ]
+    },
+    {
+      "fa_name": "کرمانشاه",
+      "us_name": "Kermanshah",
+      "cities": [
+        {
+          "fa_name": "سنقر",
+          "us_name": "Saneqreh"
+        },
+        {
+          "fa_name": "شاهو",
+          "us_name": "Shahu"
+        },
+        {
+          "fa_name": "بانوره",
+          "us_name": "Banureh"
+        },
+        {
+          "fa_name": "تازه آباد",
+          "us_name": "Tazehabad"
+        },
+        {
+          "fa_name": "هلشی",
+          "us_name": "Holeshi"
+        },
+        {
+          "fa_name": "جوانرود",
+          "us_name": "Javanrud"
+        },
+        {
+          "fa_name": "قصرشیرین",
+          "us_name": "Qasreshirin"
+        },
+        {
+          "fa_name": "نوسود",
+          "us_name": "Nowsud"
+        },
+        {
+          "fa_name": "کرند",
+          "us_name": "Karand"
+        },
+        {
+          "fa_name": "کوزران",
+          "us_name": "Kuzaran"
+        },
+        {
+          "fa_name": "بیستون",
+          "us_name": "Bisotun"
+        },
+        {
+          "fa_name": "حمیل",
+          "us_name": "Hamil"
+        },
+        {
+          "fa_name": "گیلانغرب",
+          "us_name": "Gilan-e Gharb"
+        },
+        {
+          "fa_name": "سطر",
+          "us_name": "Satar"
+        },
+        {
+          "fa_name": "روانسر",
+          "us_name": "Ravansar"
+        },
+        {
+          "fa_name": "پاوه",
+          "us_name": "Paveh"
+        },
+        {
+          "fa_name": "ازگله",
+          "us_name": "Azgoleh"
+        },
+        {
+          "fa_name": "کرمانشاه",
+          "us_name": "Kermanshah"
+        },
+        {
+          "fa_name": "میان راهان",
+          "us_name": "Miyan Rahan"
+        },
+        {
+          "fa_name": "کنگاور",
+          "us_name": "Kangavar"
+        },
+        {
+          "fa_name": "سرپل ذهاب",
+          "us_name": "Sarpol-e Zahab"
+        },
+        {
+          "fa_name": "ریجاب",
+          "us_name": "Rejab"
+        },
+        {
+          "fa_name": "باینگان",
+          "us_name": "Bayingan"
+        },
+        {
+          "fa_name": "هرسین",
+          "us_name": "Harsin"
+        },
+        {
+          "fa_name": "اسلام آبادغرب",
+          "us_name": "Eslamabad-e Gharb"
+        },
+        {
+          "fa_name": "سرمست",
+          "us_name": "Sarmast"
+        },
+        {
+          "fa_name": "سومار",
+          "us_name": "Soomar"
+        },
+        {
+          "fa_name": "نودشه",
+          "us_name": "Nodsheh"
+        },
+        {
+          "fa_name": "گهواره",
+          "us_name": "Ghavare"
+        },
+        {
+          "fa_name": "رباط",
+          "us_name": "Robat"
+        },
+        {
+          "fa_name": "صحنه",
+          "us_name": "Sahneh"
+        },
+        {
+          "fa_name": "گودین",
+          "us_name": "Gudin"
+        }
+      ]
+    },
+    {
+      "fa_name": "کهگیلویه وبویراحمد",
+      "us_name": "Kohgiluyeh and Boyer-Ahmad",
+      "cities": [
+        {
+          "fa_name": "گراب سفلی",
+          "us_name": "Gerab-e Sofla"
+        },
+        {
+          "fa_name": "لنده",
+          "us_name": "Lende"
+        },
+        {
+          "fa_name": "سی سخت",
+          "us_name": "Sisakht"
+        },
+        {
+          "fa_name": "دهدشت",
+          "us_name": "Dehdasht"
+        },
+        {
+          "fa_name": "یاسوج",
+          "us_name": "Yasuj"
+        },
+        {
+          "fa_name": "سرفاریاب",
+          "us_name": "Surfaryaab"
+        },
+        {
+          "fa_name": "دوگنبدان",
+          "us_name": "Doganbadan"
+        },
+        {
+          "fa_name": "چیتاب",
+          "us_name": "Chitab"
+        },
+        {
+          "fa_name": "لیکک",
+          "us_name": "Likak"
+        },
+        {
+          "fa_name": "دیشموک",
+          "us_name": "Dishmook"
+        },
+        {
+          "fa_name": "مادوان",
+          "us_name": "Madavan"
+        },
+        {
+          "fa_name": "باشت",
+          "us_name": "Basht"
+        },
+        {
+          "fa_name": "پاتاوه",
+          "us_name": "Pataveh"
+        },
+        {
+          "fa_name": "قلعه رییسی",
+          "us_name": "Ghaleh Raisi"
+        },
+        {
+          "fa_name": "مارگون",
+          "us_name": "Margoon"
+        },
+        {
+          "fa_name": "چرام",
+          "us_name": "Cheram"
+        },
+        {
+          "fa_name": "سوق",
+          "us_name": "Suq"
+        }
+      ]
+    },
+    {
+      "fa_name": "گلستان",
+      "us_name": "Golestan",
+      "cities": [
+        {
+          "fa_name": "سیمین شهر",
+          "us_name": "Simin Shahr"
+        },
+        {
+          "fa_name": "مزرعه",
+          "us_name": "Mazrae"
+        },
+        {
+          "fa_name": "رامیان",
+          "us_name": "Ramian"
+        },
+        {
+          "fa_name": "فراغی",
+          "us_name": "Faragi"
+        },
+        {
+          "fa_name": "گنبدکاووس",
+          "us_name": "Gonbad-e Kavus"
+        },
+        {
+          "fa_name": "کردکوی",
+          "us_name": "Kordkuy"
+        },
+        {
+          "fa_name": "مراوه",
+          "us_name": "Maraveh"
+        },
+        {
+          "fa_name": "بندرترکمن",
+          "us_name": "Bandar Torkaman"
+        },
+        {
+          "fa_name": "نگین شهر",
+          "us_name": "Negin Shahr"
+        },
+        {
+          "fa_name": "آق قلا",
+          "us_name": "Aq Qala"
+        },
+        {
+          "fa_name": "سرخنکلاته",
+          "us_name": "Sarakhs"
+        },
+        {
+          "fa_name": "گالیکش",
+          "us_name": "Galikesh"
+        },
+        {
+          "fa_name": "سنگدوین",
+          "us_name": "Sangdeh"
+        },
+        {
+          "fa_name": "دلند",
+          "us_name": "Deland"
+        },
+        {
+          "fa_name": "بندرگز",
+          "us_name": "Bandar-e Gaz"
+        },
+        {
+          "fa_name": "نوده خاندوز",
+          "us_name": "Nodkhahanduz"
+        },
+        {
+          "fa_name": "مینودشت",
+          "us_name": "Minudasht"
+        },
+        {
+          "fa_name": "گرگان",
+          "us_name": "Gorgan"
+        },
+        {
+          "fa_name": "گمیش تپه",
+          "us_name": "Gomishan"
+        },
+        {
+          "fa_name": "علی اباد",
+          "us_name": "Aliabad"
+        },
+        {
+          "fa_name": "خان ببین",
+          "us_name": "Khan Bebin"
+        },
+        {
+          "fa_name": "کلاله",
+          "us_name": "Kalaleh"
+        },
+        {
+          "fa_name": "اینچه برون",
+          "us_name": "Incheh Borun"
+        },
+        {
+          "fa_name": "فاضل آباد",
+          "us_name": "Fazelabad"
+        },
+        {
+          "fa_name": "تاتارعلیا",
+          "us_name": "Tatar Olya"
+        },
+        {
+          "fa_name": "نوکنده",
+          "us_name": "Nokandeh"
+        },
+        {
+          "fa_name": "آزادشهر",
+          "us_name": "Azadshahr"
+        },
+        {
+          "fa_name": "انبارآلوم",
+          "us_name": "Anbar Olum"
+        },
+        {
+          "fa_name": "جلین",
+          "us_name": "Jelin"
+        }
+      ]
+    },
+    {
+      "fa_name": "گیلان",
+      "us_name": "Gilan",
+      "cities": [
+        {
+          "fa_name": "منجیل",
+          "us_name": "Manjil"
+        },
+        {
+          "fa_name": "شلمان",
+          "us_name": "Shalman"
+        },
+        {
+          "fa_name": "خشکبیجار",
+          "us_name": "Khoshk Bijar"
+        },
+        {
+          "fa_name": "ماکلوان",
+          "us_name": "Maklavan"
+        },
+        {
+          "fa_name": "سنگر",
+          "us_name": "Sangar"
+        },
+        {
+          "fa_name": "مرجقل",
+          "us_name": "Marjigol"
+        },
+        {
+          "fa_name": "لیسار",
+          "us_name": "Lisar"
+        },
+        {
+          "fa_name": "رضوانشهر",
+          "us_name": "Rezvanshahr"
+        },
+        {
+          "fa_name": "رحیم آباد",
+          "us_name": "Rahimabad"
+        },
+        {
+          "fa_name": "لوندویل",
+          "us_name": "Lavandevil"
+        },
+        {
+          "fa_name": "احمدسرگوراب",
+          "us_name": "Ahmadsargurab"
+        },
+        {
+          "fa_name": "لوشان",
+          "us_name": "Lushan"
+        },
+        {
+          "fa_name": "اطاقور",
+          "us_name": "Ataquor"
+        },
+        {
+          "fa_name": "لشت نشاء",
+          "us_name": "Lasht-e Nesha"
+        },
+        {
+          "fa_name": "فومن",
+          "us_name": "Fuman"
+        },
+        {
+          "fa_name": "چوبر",
+          "us_name": "Chubar"
+        },
+        {
+          "fa_name": "بازار جمعه",
+          "us_name": "Bazar Jomeh"
+        },
+        {
+          "fa_name": "کلاچای",
+          "us_name": "Kelachay"
+        },
+        {
+          "fa_name": "بندرانزلی",
+          "us_name": "Bandar Anzali"
+        },
+        {
+          "fa_name": "املش",
+          "us_name": "Amol"
+        },
+        {
+          "fa_name": "رستم آباد",
+          "us_name": "Rasht"
+        },
+        {
+          "fa_name": "لاهیجان",
+          "us_name": "Lahijan"
+        },
+        {
+          "fa_name": "توتکابن",
+          "us_name": "Tonekabon"
+        },
+        {
+          "fa_name": "لنگرود",
+          "us_name": "Langarud"
+        },
+        {
+          "fa_name": "کوچصفهان",
+          "us_name": "Kuchesfahan"
+        },
+        {
+          "fa_name": "صومعه سرا",
+          "us_name": "Someh Sara"
+        },
+        {
+          "fa_name": "اسالم",
+          "us_name": "Asalem"
+        },
+        {
+          "fa_name": "دیلمان",
+          "us_name": "Dilman"
+        },
+        {
+          "fa_name": "رودسر",
+          "us_name": "Rudsar"
+        },
+        {
+          "fa_name": "کیاشهر",
+          "us_name": "Kiyashahr"
+        },
+        {
+          "fa_name": "شفت",
+          "us_name": "Shaft"
+        },
+        {
+          "fa_name": "رودبار",
+          "us_name": "Rudbar"
+        },
+        {
+          "fa_name": "کومله",
+          "us_name": "Kumeleh"
+        },
+        {
+          "fa_name": "رشت",
+          "us_name": "Rasht"
+        },
+        {
+          "fa_name": "ماسوله",
+          "us_name": "Masuleh"
+        },
+        {
+          "fa_name": "خمام",
+          "us_name": "Khomam"
+        },
+        {
+          "fa_name": "ماسال",
+          "us_name": "Masal"
+        },
+        {
+          "fa_name": "واجارگاه",
+          "us_name": "Vajargah"
+        },
+        {
+          "fa_name": "هشتپر (تالش)",
+          "us_name": "Hashtpar (Talesh)"
+        },
+        {
+          "fa_name": "پره سر",
+          "us_name": "Paresar"
+        },
+        {
+          "fa_name": "بره سر",
+          "us_name": "Baresar"
+        },
+        {
+          "fa_name": "آستارا",
+          "us_name": "Astara"
+        },
+        {
+          "fa_name": "رودبنه",
+          "us_name": "Rudbaneh"
+        },
+        {
+          "fa_name": "جیرنده",
+          "us_name": "Jirindah"
+        },
+        {
+          "fa_name": "چاف و چمخاله",
+          "us_name": "Chaf o Chama Kalah"
+        },
+        {
+          "fa_name": "لولمان",
+          "us_name": "Lulaman"
+        },
+        {
+          "fa_name": "گوراب زرمیخ",
+          "us_name": "Gurab Zarmikh"
+        },
+        {
+          "fa_name": "حویق",
+          "us_name": "Havigh"
+        },
+        {
+          "fa_name": "سیاهکل",
+          "us_name": "Siahkal"
+        },
+        {
+          "fa_name": "چابکسر",
+          "us_name": "Chaboksar"
+        },
+        {
+          "fa_name": "آستانه اشرفیه",
+          "us_name": "Astaneh-ye Ashrafiyeh"
+        },
+        {
+          "fa_name": "رانکوه",
+          "us_name": "Rankuh"
+        }
+      ]
+    },
+    {
+      "fa_name": "لرستان",
+      "us_name": "Lorestan",
+      "cities": [
+        {
+          "fa_name": "چالانچولان",
+          "us_name": "Chalan Chulan"
+        },
+        {
+          "fa_name": "بیران شهر",
+          "us_name": "Biranshahr"
+        },
+        {
+          "fa_name": "ویسیان",
+          "us_name": "Visian"
+        },
+        {
+          "fa_name": "شول آباد",
+          "us_name": "Shoolabad"
+        },
+        {
+          "fa_name": "پلدختر",
+          "us_name": "Pol-e Dokhtar"
+        },
+        {
+          "fa_name": "کوهدشت",
+          "us_name": "Kuhdasht"
+        },
+        {
+          "fa_name": "هفت چشمه",
+          "us_name": "Haft Cheshmeh"
+        },
+        {
+          "fa_name": "بروجرد",
+          "us_name": "Borujerd"
+        },
+        {
+          "fa_name": "الشتر",
+          "us_name": "Alashtar"
+        },
+        {
+          "fa_name": "مومن آباد",
+          "us_name": "Momenabad"
+        },
+        {
+          "fa_name": "دورود",
+          "us_name": "Dorud"
+        },
+        {
+          "fa_name": "زاغه",
+          "us_name": "Zagheh"
+        },
+        {
+          "fa_name": "چقابل",
+          "us_name": "Chaqabol"
+        },
+        {
+          "fa_name": "الیگودرز",
+          "us_name": "Aligudarz"
+        },
+        {
+          "fa_name": "معمولان",
+          "us_name": "Ma'mulan"
+        },
+        {
+          "fa_name": "کوهنانی",
+          "us_name": "Kuhanani"
+        },
+        {
+          "fa_name": "نورآباد",
+          "us_name": "Nurabad"
+        },
+        {
+          "fa_name": "سپیددشت",
+          "us_name": "Sepiddasht"
+        },
+        {
+          "fa_name": "سراب دوره",
+          "us_name": "Sarab-e Dorah"
+        },
+        {
+          "fa_name": "ازنا",
+          "us_name": "Azna"
+        },
+        {
+          "fa_name": "گراب",
+          "us_name": "Garab"
+        },
+        {
+          "fa_name": "خرم آباد",
+          "us_name": "Khorramabad"
+        },
+        {
+          "fa_name": "اشترینان",
+          "us_name": "Eshtarinan"
+        },
+        {
+          "fa_name": "فیروزآباد",
+          "us_name": "Firuzabad"
+        },
+        {
+          "fa_name": "درب گنبد",
+          "us_name": "Darb-e Gonbad"
+        }
+      ]
+    },
+    {
+      "fa_name": "مازندران",
+      "us_name": "Mazandaran",
+      "cities": [
+        {
+          "fa_name": "گلوگاه",
+          "us_name": "Golgah"
+        },
+        {
+          "fa_name": "پل سفید",
+          "us_name": "Pol Sefid"
+        },
+        {
+          "fa_name": "دابودشت",
+          "us_name": "Dabudasht"
+        },
+        {
+          "fa_name": "چالوس",
+          "us_name": "Chalus"
+        },
+        {
+          "fa_name": "کیاسر",
+          "us_name": "Kiasar"
+        },
+        {
+          "fa_name": "بهنمیر",
+          "us_name": "Behnamir"
+        },
+        {
+          "fa_name": "تنکابن",
+          "us_name": "Tonekabon"
+        },
+        {
+          "fa_name": "کلاردشت",
+          "us_name": "Kelardasht"
+        },
+        {
+          "fa_name": "ایزدشهر",
+          "us_name": "Izadshahr"
+        },
+        {
+          "fa_name": "گتاب",
+          "us_name": "Gatab"
+        },
+        {
+          "fa_name": "سلمان شهر",
+          "us_name": "Salman Shahr"
+        },
+        {
+          "fa_name": "ارطه",
+          "us_name": "Arteh"
+        },
+        {
+          "fa_name": "امیرکلا",
+          "us_name": "Amir Kala"
+        },
+        {
+          "fa_name": "کوهی خیل",
+          "us_name": "Kuhi Kheyl"
+        },
+        {
+          "fa_name": "پایین هولار",
+          "us_name": "Pain-e Hular"
+        },
+        {
+          "fa_name": "گزنک",
+          "us_name": "Gazanak"
+        },
+        {
+          "fa_name": "محمودآباد",
+          "us_name": "Mahmudabad"
+        },
+        {
+          "fa_name": "رامسر",
+          "us_name": "Ramsar"
+        },
+        {
+          "fa_name": "نوشهر",
+          "us_name": "Noshahr"
+        },
+        {
+          "fa_name": "خلیل شهر",
+          "us_name": "Khalil Shahr"
+        },
+        {
+          "fa_name": "کیاکلا",
+          "us_name": "Kiakola"
+        },
+        {
+          "fa_name": "نور",
+          "us_name": "Nur"
+        },
+        {
+          "fa_name": "مرزیکلا",
+          "us_name": "Marzikola"
+        },
+        {
+          "fa_name": "فریدونکنار",
+          "us_name": "Fereydunkenar"
+        },
+        {
+          "fa_name": "زیرآب",
+          "us_name": "Zirab"
+        },
+        {
+          "fa_name": "امامزاده عبدالله",
+          "us_name": "Emamzadeh Abdollah"
+        },
+        {
+          "fa_name": "هچیرود",
+          "us_name": "Hachirud"
+        },
+        {
+          "fa_name": "فریم",
+          "us_name": "Fereym"
+        },
+        {
+          "fa_name": "هادی شهر",
+          "us_name": "Hadi Shahr"
+        },
+        {
+          "fa_name": "نشتارود",
+          "us_name": "Nashtaroud"
+        },
+        {
+          "fa_name": "پول",
+          "us_name": "Pol"
+        },
+        {
+          "fa_name": "بهشهر",
+          "us_name": "Behshahr"
+        },
+        {
+          "fa_name": "کلارآباد",
+          "us_name": "Kalarabad"
+        },
+        {
+          "fa_name": "بلده",
+          "us_name": "Baladeh"
+        },
+        {
+          "fa_name": "بابل",
+          "us_name": "Babol"
+        },
+        {
+          "fa_name": "جویبار",
+          "us_name": "Juybar"
+        },
+        {
+          "fa_name": "آلاشت",
+          "us_name": "Alasht"
+        },
+        {
+          "fa_name": "آمل",
+          "us_name": "Amol"
+        },
+        {
+          "fa_name": "نکا",
+          "us_name": "Neka"
+        },
+        {
+          "fa_name": "کتالم وسادات شهر",
+          "us_name": "Katalom va Sadat Shahr"
+        },
+        {
+          "fa_name": "بابلسر",
+          "us_name": "Babolsar"
+        },
+        {
+          "fa_name": "شیرود",
+          "us_name": "Shirud"
+        },
+        {
+          "fa_name": "شیرگاه",
+          "us_name": "Shirgah"
+        },
+        {
+          "fa_name": "رویان",
+          "us_name": "Royan"
+        },
+        {
+          "fa_name": "زرگرمحله",
+          "us_name": "Zargar Mahalleh"
+        },
+        {
+          "fa_name": "عباس اباد",
+          "us_name": "Abbasabad"
+        },
+        {
+          "fa_name": "قایم شهر",
+          "us_name": "Qaem Shahr"
+        },
+        {
+          "fa_name": "خوش رودپی",
+          "us_name": "Khosh Roodpi"
+        },
+        {
+          "fa_name": "مرزن آباد",
+          "us_name": "Marzanabad"
+        },
+        {
+          "fa_name": "ساری",
+          "us_name": "Sari"
+        },
+        {
+          "fa_name": "رینه",
+          "us_name": "Rineh"
+        },
+        {
+          "fa_name": "سرخرود",
+          "us_name": "Sorkhroud"
+        },
+        {
+          "fa_name": "خرم آباد",
+          "us_name": "Khorramabad"
+        },
+        {
+          "fa_name": "کجور",
+          "us_name": "Kojur"
+        },
+        {
+          "fa_name": "رستمکلا",
+          "us_name": "Rostamkola"
+        },
+        {
+          "fa_name": "سورک",
+          "us_name": "Surak"
+        },
+        {
+          "fa_name": "چمستان",
+          "us_name": "Chamestan"
+        }
+      ]
+    },
+    {
+      "fa_name": "مرکزی",
+      "us_name": "Markazi",
+      "cities": [
+        {
+          "fa_name": "آستانه",
+          "us_name": "Astaneh"
+        },
+        {
+          "fa_name": "خنجین",
+          "us_name": "Khenejin"
+        },
+        {
+          "fa_name": "نراق",
+          "us_name": "Naraq"
+        },
+        {
+          "fa_name": "کمیجان",
+          "us_name": "Komijan"
+        },
+        {
+          "fa_name": "آشتیان",
+          "us_name": "Ashtian"
+        },
+        {
+          "fa_name": "رازقان",
+          "us_name": "Razqan"
+        },
+        {
+          "fa_name": "مهاجران",
+          "us_name": "Mohajeran"
+        },
+        {
+          "fa_name": "غرق آباد",
+          "us_name": "Ghargh Abad"
+        },
+        {
+          "fa_name": "خنداب",
+          "us_name": "Khandab"
+        },
+        {
+          "fa_name": "قورچی باشی",
+          "us_name": "Qurchi Bashi"
+        },
+        {
+          "fa_name": "خشکرود",
+          "us_name": "Khoshkrud"
+        },
+        {
+          "fa_name": "ساروق",
+          "us_name": "Saruq"
+        },
+        {
+          "fa_name": "محلات",
+          "us_name": "Mahallat"
+        },
+        {
+          "fa_name": "شازند",
+          "us_name": "Shazand"
+        },
+        {
+          "fa_name": "ساوه",
+          "us_name": "Saveh"
+        },
+        {
+          "fa_name": "میلاجرد",
+          "us_name": "Milajerd"
+        },
+        {
+          "fa_name": "تفرش",
+          "us_name": "Tafresh"
+        },
+        {
+          "fa_name": "زاویه",
+          "us_name": "Zavieh"
+        },
+        {
+          "fa_name": "اراک",
+          "us_name": "Arak"
+        },
+        {
+          "fa_name": "توره",
+          "us_name": "Tureh"
+        },
+        {
+          "fa_name": "نوبران",
+          "us_name": "Nowbaran"
+        },
+        {
+          "fa_name": "فرمهین",
+          "us_name": "Firouzeh"
+        },
+        {
+          "fa_name": "دلیجان",
+          "us_name": "Delijan"
+        },
+        {
+          "fa_name": "پرندک",
+          "us_name": "Parandak"
+        },
+        {
+          "fa_name": "کارچان",
+          "us_name": "Karchan"
+        },
+        {
+          "fa_name": "نیمور",
+          "us_name": "Nimvar"
+        },
+        {
+          "fa_name": "هندودر",
+          "us_name": "Hendoudar"
+        },
+        {
+          "fa_name": "آوه",
+          "us_name": "Aveh"
+        },
+        {
+          "fa_name": "جاورسیان",
+          "us_name": "Javarsian"
+        },
+        {
+          "fa_name": "خمین",
+          "us_name": "Khomein"
+        },
+        {
+          "fa_name": "مامونیه",
+          "us_name": "Mamuniyeh"
+        },
+        {
+          "fa_name": "داودآباد",
+          "us_name": "Davoudabad"
+        },
+        {
+          "fa_name": "شهباز",
+          "us_name": "Shahbaz"
+        }
+      ]
+    },
+    {
+      "fa_name": "هرمزگان",
+      "us_name": "Hormozgan",
+      "cities": [
+        {
+          "fa_name": "بیکاء",
+          "us_name": "Bika"
+        },
+        {
+          "fa_name": "تیرور",
+          "us_name": "Tirur"
+        },
+        {
+          "fa_name": "گروک",
+          "us_name": "Goruk"
+        },
+        {
+          "fa_name": "قشم",
+          "us_name": "Qeshm"
+        },
+        {
+          "fa_name": "کوشکنار",
+          "us_name": "Kushkanar"
+        },
+        {
+          "fa_name": "کیش",
+          "us_name": "Kish"
+        },
+        {
+          "fa_name": "سرگز",
+          "us_name": "Sargaz"
+        },
+        {
+          "fa_name": "بندرعباس",
+          "us_name": "Bandar Abbas"
+        },
+        {
+          "fa_name": "زیارتعلی",
+          "us_name": "Ziarat Ali"
+        },
+        {
+          "fa_name": "سندرک",
+          "us_name": "Sindurak"
+        },
+        {
+          "fa_name": "کوهستک",
+          "us_name": "Kuhistak"
+        },
+        {
+          "fa_name": "لمزان",
+          "us_name": "Lamzaan"
+        },
+        {
+          "fa_name": "رویدر",
+          "us_name": "Roydar"
+        },
+        {
+          "fa_name": "قلعه قاضی",
+          "us_name": "Qaleh Qazi"
+        },
+        {
+          "fa_name": "فارغان",
+          "us_name": "Faregan"
+        },
+        {
+          "fa_name": "ابوموسی",
+          "us_name": "Abu Musa"
+        },
+        {
+          "fa_name": "هشتبندی",
+          "us_name": "Hasht Bandi"
+        },
+        {
+          "fa_name": "سردشت",
+          "us_name": "Sardasht"
+        },
+        {
+          "fa_name": "درگهان",
+          "us_name": "Dargahan"
+        },
+        {
+          "fa_name": "پارسیان",
+          "us_name": "Parsian"
+        },
+        {
+          "fa_name": "کنگ",
+          "us_name": "Kong"
+        },
+        {
+          "fa_name": "جناح",
+          "us_name": "Janah"
+        },
+        {
+          "fa_name": "تازیان پایین",
+          "us_name": "Tazian Payin"
+        },
+        {
+          "fa_name": "دهبارز",
+          "us_name": "Dehbarez"
+        },
+        {
+          "fa_name": "میناب",
+          "us_name": "Minab"
+        },
+        {
+          "fa_name": "سیریک",
+          "us_name": "Sirik"
+        },
+        {
+          "fa_name": "سوزا",
+          "us_name": "Suza"
+        },
+        {
+          "fa_name": "خمیر",
+          "us_name": "Khamir"
+        },
+        {
+          "fa_name": "چارک",
+          "us_name": "Charak"
+        },
+        {
+          "fa_name": "حاجی اباد",
+          "us_name": "Haji Abad"
+        },
+        {
+          "fa_name": "فین",
+          "us_name": "Fin"
+        },
+        {
+          "fa_name": "بندرجاسک",
+          "us_name": "Bandar Jask"
+        },
+        {
+          "fa_name": "گوهران",
+          "us_name": "Goharan"
+        },
+        {
+          "fa_name": "هرمز",
+          "us_name": "Hormoz"
+        },
+        {
+          "fa_name": "دشتی",
+          "us_name": "Dashti"
+        },
+        {
+          "fa_name": "بندرلنگه",
+          "us_name": "Bandar Lengeh"
+        },
+        {
+          "fa_name": "بستک",
+          "us_name": "Bushehr"
+        },
+        {
+          "fa_name": "تخت",
+          "us_name": "Takht"
+        }
+      ]
+    },
+    {
+      "fa_name": "همدان",
+      "us_name": "Hamadan",
+      "cities": [
+        {
+          "fa_name": "زنگنه",
+          "us_name": "Zanganeh"
+        },
+        {
+          "fa_name": "دمق",
+          "us_name": "Domeq"
+        },
+        {
+          "fa_name": "سرکان",
+          "us_name": "Sorkan"
+        },
+        {
+          "fa_name": "آجین",
+          "us_name": "Ajineh"
+        },
+        {
+          "fa_name": "جورقان",
+          "us_name": "Jorqan"
+        },
+        {
+          "fa_name": "برزول",
+          "us_name": "Borzul"
+        },
+        {
+          "fa_name": "فامنین",
+          "us_name": "Famenin"
+        },
+        {
+          "fa_name": "سامن",
+          "us_name": "Saman"
+        },
+        {
+          "fa_name": "بهار",
+          "us_name": "Bahar"
+        },
+        {
+          "fa_name": "فرسفج",
+          "us_name": "Farsfaj"
+        },
+        {
+          "fa_name": "شیرین سو",
+          "us_name": "Shirin Su"
+        },
+        {
+          "fa_name": "مریانج",
+          "us_name": "Meryanj"
+        },
+        {
+          "fa_name": "فیروزان",
+          "us_name": "Firuzan"
+        },
+        {
+          "fa_name": "قروه درجزین",
+          "us_name": "Qorveh-ye Darjazin"
+        },
+        {
+          "fa_name": "ازندریان",
+          "us_name": "Azandarian"
+        },
+        {
+          "fa_name": "لالجین",
+          "us_name": "Laljin"
+        },
+        {
+          "fa_name": "گل تپه",
+          "us_name": "Gol Tappeh"
+        },
+        {
+          "fa_name": "گیان",
+          "us_name": "Gayan"
+        },
+        {
+          "fa_name": "ملایر",
+          "us_name": "Malayer"
+        },
+        {
+          "fa_name": "صالح آباد",
+          "us_name": "Salehabad"
+        },
+        {
+          "fa_name": "تویسرکان",
+          "us_name": "Tuyserkan"
+        },
+        {
+          "fa_name": "اسدآباد",
+          "us_name": "Asadabad"
+        },
+        {
+          "fa_name": "همدان",
+          "us_name": "Hamadan"
+        },
+        {
+          "fa_name": "نهاوند",
+          "us_name": "Nahavand"
+        },
+        {
+          "fa_name": "رزن",
+          "us_name": "Razan"
+        },
+        {
+          "fa_name": "جوکار",
+          "us_name": "Jokar"
+        },
+        {
+          "fa_name": "مهاجران",
+          "us_name": "Mohajeran"
+        },
+        {
+          "fa_name": "کبودرآهنگ",
+          "us_name": "Kabudarahang"
+        },
+        {
+          "fa_name": "قهاوند",
+          "us_name": "Qahavand"
+        }
+      ]
+    },
+    {
+      "fa_name": "یزد",
+      "us_name": "Yazd",
+      "cities": [
+        {
+          "fa_name": "مروست",
+          "us_name": "Marvast"
+        },
+        {
+          "fa_name": "مهردشت",
+          "us_name": "Mehrdasht"
+        },
+        {
+          "fa_name": "حمیدیا",
+          "us_name": "Hamidia"
+        },
+        {
+          "fa_name": "تفت",
+          "us_name": "Taft"
+        },
+        {
+          "fa_name": "اشکذر",
+          "us_name": "Ashkezar"
+        },
+        {
+          "fa_name": "ندوشن",
+          "us_name": "Nodoushan"
+        },
+        {
+          "fa_name": "یزد",
+          "us_name": "Yazd"
+        },
+        {
+          "fa_name": "عقدا",
+          "us_name": "Aqda"
+        },
+        {
+          "fa_name": "بهاباد",
+          "us_name": "Bahabad"
+        },
+        {
+          "fa_name": "ابرکوه",
+          "us_name": "Abarkooh"
+        },
+        {
+          "fa_name": "زارچ",
+          "us_name": "Zarach"
+        },
+        {
+          "fa_name": "نیر",
+          "us_name": "Nir"
+        },
+        {
+          "fa_name": "اردکان",
+          "us_name": "Ardakan"
+        },
+        {
+          "fa_name": "هرات",
+          "us_name": "Harat"
+        },
+        {
+          "fa_name": "بفروییه",
+          "us_name": "Bafrooieh"
+        },
+        {
+          "fa_name": "شاهدیه",
+          "us_name": "Shahedieh"
+        },
+        {
+          "fa_name": "بافق",
+          "us_name": "Bafq"
+        },
+        {
+          "fa_name": "خضرآباد",
+          "us_name": "Khozrabad"
+        },
+        {
+          "fa_name": "میبد",
+          "us_name": "Meybod"
+        },
+        {
+          "fa_name": "مهریز",
+          "us_name": "Mehriz"
+        },
+        {
+          "fa_name": "احمدآباد",
+          "us_name": "Ahmadabad"
+        }
+      ]
+    }
+  ]
+}
