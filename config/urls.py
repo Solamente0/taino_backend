@@ -46,7 +46,7 @@ urlpatterns = [
     path("api/crm-hub/", include("apps.crm_hub.api.urls"), name="crm_hub"),
     path("api/ai-support/", include("apps.ai_support.api.urls"), name="ai-support"),
     path("api/file-to-text/", include("apps.file_to_text.api.urls"), name="file_to_text"),
-    path("api/case/", include("apps.case.api.urls"), name="case"),
+#    path("api/case/", include("apps.case.api.urls"), name="case"),
 ]
 
 if settings.DEBUG or settings.TESTING:

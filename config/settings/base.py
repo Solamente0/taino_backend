@@ -56,7 +56,7 @@ INSTALLED_APPS = [
     "apps.crm_hub.apps.CrmHubConfig",
     "apps.ai_support.apps.AiSupportConfig",
     "apps.file_to_text.apps.FileToTextConfig",
-    "apps.case.apps.CaseConfig",  # اضافه کنید
+#    "apps.case.apps.CaseConfig",  # اضافه کنید
 ]
 
 MIDDLEWARE = [
